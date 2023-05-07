@@ -14,6 +14,15 @@ module.exports = {
 				display: ["var(--font-display)", ...defaultTheme.fontFamily.sans],
 			},
 		},
+		colors: {
+			transparent: "transparent",
+			current: "currentColor",
+			"primary-dark": "hsla(195, 40%, 15%, 1.0)",
+			"text-dark": "hsla(195, 40%, 8%, 1.0)",
+			"text-light": "hsla(195, 0%, 90%, 1.0)",
+			secondary: "hsla(14, 60%, 45%, 1.0)",
+			"secondary-dark": "hsla(14, 60%, 35%, 1.0)",
+		},
 	},
 	plugins: [],
 };

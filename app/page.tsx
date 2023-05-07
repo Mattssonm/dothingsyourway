@@ -13,7 +13,6 @@ export default function Home() {
 					DO THINGS
 					<span className="font-semibold"> YOUR</span> WAY
 				</h1>
-				<p className="font-sans">Detta är lite brödtext</p>
 			</div>
 		</main>
 	);
