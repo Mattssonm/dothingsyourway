@@ -1,5 +1,5 @@
-import Button from "@/components/Button/Button";
-import Header from "@/components/Header/Header";
+import Button from "@/components/Button";
+import Header from "@/components/Header";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -22,6 +22,11 @@ export default function Page() {
 						någonsin!
 					</p>
 					<Button>Köp nu</Button>
+				</div>
+			</section>
+			<section>
+				<div className="container mx-auto py-64 px-4 flex-column justify-end space-y-4">
+					Här kommer en sälj-video?
 				</div>
 			</section>
 		</>
