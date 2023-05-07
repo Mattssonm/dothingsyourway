@@ -20,6 +20,7 @@ module.exports = {
 			current: "currentColor",
 			white: "hsla(0, 0%, 90%, 1.0)",
 			black: "hsla(0, 0%, 10%, 1.0)",
+			"primary-darkest": "hsla(195, 40%, 9%, 1.0)",
 			"primary-dark": "hsla(195, 40%, 15%, 1.0)",
 			primary: "hsla(195, 35%, 25%, 1.0)",
 			"primary-light": "hsla(195, 15%, 65%, 1.0)",
@@ -37,7 +38,9 @@ export type Color =
 	| "current"
 	| "white"
 	| "black"
+	| "primary"
 	| "primary-dark"
+	| "primary-darkest"
 	| "primary-light"
 	| "text-dark"
 	| "text-light"

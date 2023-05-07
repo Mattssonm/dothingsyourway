@@ -37,8 +37,7 @@ export const WithBackground: StoryObj<typeof Section> = (
 );
 
 WithBackground.args = {
-	backgroundColor: "primary-dark",
-	textColor: "text-light",
+	className: "bg-primary-dark text-light",
 	children: (
 		<div>
 			<h2>This is some content</h2>

@@ -3,7 +3,7 @@ import Section from "../Section";
 
 const About = () => {
 	return (
-		<Section backgroundColor="primary-dark" textColor="white">
+		<Section className="bg-primary-dark text-text-light min-h-screen">
 			<div className="flex flex-col-reverse md:flex-row space-x-4 space-y-8 items-center justify-center font-light">
 				<div className="space-y-4 max-w-screen-sm basis-3/4 mt-8">
 					<h2 className="font-display text-3xl md:text-5xl font-normal text-primary-light uppercase mb-8">
@@ -38,13 +38,13 @@ const About = () => {
 						bli fri och skapa ett tryggt liv som företagare!
 					</p>
 				</div>
-				<div className="rounded-full w-max-lg flex align-center justify-center">
+				<div className="w-max-m h-auto flex align-center justify-center">
 					<Image
 						src="/images/markus.jpg"
-						width={600}
-						height={400}
+						width={500}
+						height={350}
 						alt="Markus"
-						className="rounded-full basis-1/3"
+						className="rounded-full h-auto w-auto"
 					/>
 				</div>
 			</div>
