@@ -6,7 +6,7 @@ import Image from "next/image";
 const FAQSection = () => {
 	return (
 		<Section className="flex flex-col items-center">
-			<h2 className="font-display text-center uppercase text-4xl text-primary mb-8">
+			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
 				Vanliga frågor
 			</h2>
 			<Image
