@@ -2,6 +2,8 @@ import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
+import { Accordion } from "flowbite-react";
+import FAQSection from "./faq";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -30,6 +32,7 @@ export default function Page() {
 			<Section>
 				<p>Här kommer en sälj-video?</p>
 			</Section>
+			<FAQSection />
 			<Footer />
 		</>
 	);

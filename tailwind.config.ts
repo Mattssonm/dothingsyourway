@@ -6,6 +6,7 @@ module.exports = {
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
+		"./node_modules/flowbite-react/**/*.js",
 	],
 	theme: {
 		extend: {
@@ -28,7 +29,7 @@ module.exports = {
 			"secondary-dark": "hsla(14, 60%, 35%, 1.0)",
 		},
 	},
-	plugins: [],
+	plugins: [require("flowbite/plugin")],
 };
 
 export type Color =
