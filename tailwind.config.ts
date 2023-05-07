@@ -17,7 +17,11 @@ module.exports = {
 		colors: {
 			transparent: "transparent",
 			current: "currentColor",
+			white: "hsla(0, 0%, 90%, 1.0)",
+			black: "hsla(0, 0%, 10%, 1.0)",
 			"primary-dark": "hsla(195, 40%, 15%, 1.0)",
+			primary: "hsla(195, 35%, 25%, 1.0)",
+			"primary-light": "hsla(195, 15%, 65%, 1.0)",
 			"text-dark": "hsla(195, 40%, 8%, 1.0)",
 			"text-light": "hsla(195, 0%, 90%, 1.0)",
 			secondary: "hsla(14, 60%, 45%, 1.0)",
@@ -26,3 +30,15 @@ module.exports = {
 	},
 	plugins: [],
 };
+
+export type Color =
+	| "transparent"
+	| "current"
+	| "white"
+	| "black"
+	| "primary-dark"
+	| "primary-light"
+	| "text-dark"
+	| "text-light"
+	| "secondary"
+	| "secondary-dark";

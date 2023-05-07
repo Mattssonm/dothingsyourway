@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 export interface ButtonProps {
 	variant?: "primary" | "secondary";
 	children: React.ReactNode;
@@ -15,12 +13,6 @@ const Button = ({ variant = "primary", children, onClick }: ButtonProps) => {
 			{children}
 		</button>
 	);
-};
-
-Button.propTypes = {
-	variant: PropTypes.oneOf(["primary", "secondary"]),
-	children: PropTypes.node.isRequired,
-	onClick: PropTypes.func,
 };
 
 export default Button;
