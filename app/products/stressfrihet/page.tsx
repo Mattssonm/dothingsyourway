@@ -14,19 +14,30 @@ export default function Page() {
 	return (
 		<>
 			<Header variant="light" />
-			<Section className="bg-primary-dark text-text-light text-right min-h-screen flex flex-col justify-center items-end">
-				<h2 className="text-4xl md:text-6xl font-display uppercase">
-					Stressfrihet
-				</h2>
-				<h3 className="font-display text-xl md:text-2xl">
-					Öka din arbetsförmåga med 10 timmar i veckan OCH må bra!
-				</h3>
-				<p className="font-thin italic">
-					Bli fri från stress, få massvis med energi och mer gjort än någonsin!
-				</p>
-				<Button>Köp nu</Button>
+			<Section className="bg-primary-dark text-text-light text-right md:min-h-screen items-center flex flex-col md:flex-row space-x-8 space-y-16">
+				<div>
+					<Image
+						src="/images/organizing.svg"
+						width={800}
+						height={600}
+						alt="Organizing"
+					/>
+				</div>
+				<div className="flex flex-col justify-center items-end space-y-4">
+					<h2 className="text-4xl md:text-6xl font-display uppercase">
+						Stressfrihet
+					</h2>
+					<h3 className="font-display text-xl md:text-2xl">
+						Öka din arbetsförmåga med 10 timmar i veckan OCH må bra!
+					</h3>
+					<p className="font-thin italic">
+						Bli fri från stress, få massvis med energi och mer gjort än
+						någonsin!
+					</p>
+					<Button>Köp nu</Button>
+				</div>
 			</Section>
-			<Section className="bg-primary-darkest flex items-center justify-center">
+			<Section className="bg-primary-darkest flex items-center justify-center md:min-h-screen">
 				<iframe
 					title="vimeo-player"
 					src="https://player.vimeo.com/video/819764615?h=658f9043e9"

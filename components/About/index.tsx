@@ -3,7 +3,7 @@ import Section from "../Section";
 
 const About = () => {
 	return (
-		<Section className="bg-primary-dark text-text-light min-h-screen">
+		<Section className="bg-primary-dark text-text-light md:min-h-screen">
 			<div className="flex flex-col-reverse md:flex-row space-x-4 space-y-8 items-center justify-center font-light">
 				<div className="space-y-4 max-w-screen-sm basis-3/4 mt-8">
 					<h2 className="font-display text-3xl md:text-5xl font-normal text-primary-light uppercase mb-8">
