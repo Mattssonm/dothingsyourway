@@ -28,13 +28,14 @@ export default function Page() {
 						Stressfrihet
 					</h2>
 					<h3 className="font-display text-xl md:text-2xl">
-						Öka din arbetsförmåga med 10 timmar i veckan OCH må bra!
-					</h3>
-					<p className="font-thin italic">
 						Bli fri från stress, få massvis med energi och mer gjort än
 						någonsin!
+					</h3>
+					<p className="font-thin italic w-96">
+						Ett 12-veckors coaching- och utbildningsprogram med fokus på stress,
+						energi och produktivitet
 					</p>
-					<Button>Köp nu</Button>
+					<Button>Anmäl dig nu</Button>
 				</div>
 			</Section>
 			<Section className="bg-primary-darkest flex items-center justify-center md:min-h-screen">
@@ -123,10 +124,11 @@ export default function Page() {
 				<h2 className="font-display text-primary text-3xl md:text-5xl pt-32">
 					Då har du kommit helt rätt!
 				</h2>
-				<p className="italic">
+				<p className="italic pb-8">
 					Faktum är att jag vet precis hur frustrerande det är, så därför
 					bestämde jag mig för att fixa det…
 				</p>
+				<Button>Vill du vara med?</Button>
 			</Section>
 			<About />
 			<FAQSection />
