@@ -1,24 +1,10 @@
 import Section from "@/components/Section";
-import Image from "next/image";
 
-const Testimonials = () => {
-	return (
-		<Section className="flex flex-col items-center">
-			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
-				Det här säger tidigare kunder:
-			</h2>
-			<div className="w-full max-w-4xl">
-				<iframe
-					className="h-80"
-					src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-					allowFullScreen
-					title="Jessica Testimonial"
-				></iframe>
-			</div>
-			<p>!SNEKY resten av datan ligger i testimonials.tsx</p>
-		</Section>
-	);
-};
+interface Testimonial {
+	name: string;
+	image: string;
+	text: string;
+}
 
 const testimonials: Testimonial[] = [
 	{
@@ -62,5 +48,24 @@ const testimonials: Testimonial[] = [
 		text: "Är mycket nöjd med programmet. Modulerna har varit mycket givande och det har varit guld att få mötas veckovis för gruppcoaching och inspirerande samtal. Programmet har stärkt mig mentalt och givit mig en bättre grund för att kunna driva företag.",
 	},
 ];
+
+const Testimonials = () => {
+	return (
+		<Section className="flex flex-col items-center">
+			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
+				Det här säger tidigare kunder:
+			</h2>
+			<div className="w-full max-w-4xl">
+				<iframe
+					className="h-80"
+					src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+					allowFullScreen
+					title="Jessica Testimonial"
+				></iframe>
+			</div>
+			<p>!SNEKY resten av datan ligger i testimonials.tsx</p>
+		</Section>
+	);
+};
 
 export default Testimonials;
