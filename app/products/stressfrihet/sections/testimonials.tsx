@@ -52,18 +52,27 @@ const testimonials: Testimonial[] = [
 const Testimonials = () => {
 	return (
 		<Section className="flex flex-col items-center">
-			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
-				Det här säger tidigare kunder:
-			</h2>
-			<div className="w-full max-w-4xl">
-				<iframe
-					className="h-80"
-					src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-					allowFullScreen
-					title="Jessica Testimonial"
-				></iframe>
+			<div>
+				<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
+					Det här säger tidigare kunder:
+				</h2>
+				<div className="w-full max-w-4xl">
+					<iframe
+						className="h-80"
+						src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+						allowFullScreen
+						title="Jessica Testimonial"
+					></iframe>
+				</div>
+				<ul>
+					{testimonials.map((testimonial) => (
+						<li key={testimonial.name} className="my-8">
+							<h1>{testimonial.name}</h1>
+							<p>{testimonial.text}</p>
+						</li>
+					))}
+				</ul>
 			</div>
-			<p>!SNEKY resten av datan ligger i testimonials.tsx</p>
 		</Section>
 	);
 };
