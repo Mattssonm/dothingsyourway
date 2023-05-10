@@ -8,13 +8,12 @@ const Testimonials = () => {
 				Det här säger tidigare kunder:
 			</h2>
 			<div className="w-full max-w-4xl">
-				<div>
-					<iframe
-						src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-						allowFullScreen
-						title="Jessica Testimonial"
-					></iframe>
-				</div>
+				<iframe
+					className="h-80"
+					src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+					allowFullScreen
+					title="Jessica Testimonial"
+				></iframe>
 			</div>
 			<p>!SNEKY resten av datan ligger i testimonials.tsx</p>
 		</Section>
