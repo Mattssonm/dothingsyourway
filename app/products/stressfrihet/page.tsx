@@ -260,70 +260,74 @@ export default function Page() {
 					för att du också ska få känna hur det är att leva i Stressfrihet.
 				</p>
 			</Section>
-			<Section className="flex flex-col">
-				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
+			<Section className="flex flex-col bg-primary-dark items-center">
+				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
 					Du kommer att öka din arbetsförmåga med minst 10 timmar i veckan…
 				</h2>
-				<p>
-					När du följer den nya metoden för att jobba med stress så är det det
-					du kan förvänta dig.
-				</p>
-				<p>
-					Materialet i detta program har tidigare endast varit tillgängligt i
-					mina mer exklusiva coachingprogram som kostat minst 20.000 kr.
-				</p>
-				<p>Men när du går med nu får du det för endast 9970 kr.</p>
-				<p>
-					Detta är lösningen för dig som har testat allt för att bli fri från
-					stressen men där inget funkat…
-				</p>
-				<p>
-					Det är eftersom jag inte lär ut att du ska undvika stressen utan
-					istället skifta ditt mindset så att du inte längre har ont av den
-					stress som oundvikligen kommer finnas i ditt liv.
-				</p>
-				<p>
-					Detta är inte ännu en stresskurs som handlar om avslappning och att
-					sänka kraven.
-				</p>
-				<p>
-					Istället behåller vi dina ambitioner och ändrar din relation till
-					stress så du inte behöver lika mycket återhämtning som tidigare.
-				</p>
-				<p>
-					Det totala värdet för detta är 57.000 kr men om du är snabb och snor
-					åt dig en av de 5 första platserna får du allt detta för endast 6970
-					kr.
-				</p>
-				<p>Dock finns det en hake…</p>
-				<p>
-					Jag jobbar endast med personer som vill ha ett företag där det
-					huvudsakliga mål är att faktiskt göra skillnad för andra.
-				</p>
-				<p>
-					Om du bara vill driva ditt företag för din egen skull eller vill
-					försöka bli rik utan att ge något tillbaka, så är detta inte för dig.
-				</p>
-				<p>Så länge du kan lova mig det så har vi en deal!</p>
-				<p>
-					Efter dessa 3 månader kommer du inte längre vara rädd för stressen.
-				</p>
-				<p>
-					Du kommer ha skapat en struktur som hjälper dig hålla koll på allt och
-					som gör dig superproduktiv.
-				</p>
-				<p>
-					Du kommer känna att det är enkelt att stå upp för dig själv och du
-					kommer må bättre än du någonsin gjort förut.
-				</p>
-				<p>
-					Och det är särskilt designat för dig som är eller vill bli företagare…
-				</p>
-				<p>Och bäst av allt!</p>
-				<p>
-					Det finns gott om personer som kan intyga om att detta program har
-					gjort oerhört stor skillnad i deras liv.
-				</p>
+				<div className="bg-background p-16 rounded-2xl max-w-4xl flex flex-col gap-4">
+					<p>
+						När du följer den nya metoden för att jobba med stress så är det det
+						du kan förvänta dig.
+					</p>
+					<p>
+						Materialet i detta program har tidigare endast varit tillgängligt i
+						mina mer exklusiva coachingprogram som kostat minst 20.000 kr.
+					</p>
+					<p>Men när du går med nu får du det för endast 9970 kr.</p>
+					<p>
+						Detta är lösningen för dig som har testat allt för att bli fri från
+						stressen men där inget funkat…
+					</p>
+					<p>
+						Det är eftersom jag inte lär ut att du ska undvika stressen utan
+						istället skifta ditt mindset så att du inte längre har ont av den
+						stress som oundvikligen kommer finnas i ditt liv.
+					</p>
+					<p>
+						Detta är inte ännu en stresskurs som handlar om avslappning och att
+						sänka kraven.
+					</p>
+					<p>
+						Istället behåller vi dina ambitioner och ändrar din relation till
+						stress så du inte behöver lika mycket återhämtning som tidigare.
+					</p>
+					<p>
+						Det totala värdet för detta är 57.000 kr men om du är snabb och snor
+						åt dig en av de 5 första platserna får du allt detta för endast 6970
+						kr.
+					</p>
+					<p>Dock finns det en hake…</p>
+					<p>
+						Jag jobbar endast med personer som vill ha ett företag där det
+						huvudsakliga mål är att faktiskt göra skillnad för andra.
+					</p>
+					<p>
+						Om du bara vill driva ditt företag för din egen skull eller vill
+						försöka bli rik utan att ge något tillbaka, så är detta inte för
+						dig.
+					</p>
+					<p>Så länge du kan lova mig det så har vi en deal!</p>
+					<p>
+						Efter dessa 3 månader kommer du inte längre vara rädd för stressen.
+					</p>
+					<p>
+						Du kommer ha skapat en struktur som hjälper dig hålla koll på allt
+						och som gör dig superproduktiv.
+					</p>
+					<p>
+						Du kommer känna att det är enkelt att stå upp för dig själv och du
+						kommer må bättre än du någonsin gjort förut.
+					</p>
+					<p>
+						Och det är särskilt designat för dig som är eller vill bli
+						företagare…
+					</p>
+					<p>Och bäst av allt!</p>
+					<p>
+						Det finns gott om personer som kan intyga om att detta program har
+						gjort oerhört stor skillnad i deras liv.
+					</p>
+				</div>
 			</Section>
 			<Testimonials />
 			<About />

@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Image from "next/image";
 
 interface Testimonial {
 	name: string;
@@ -51,28 +52,36 @@ const testimonials: Testimonial[] = [
 
 const Testimonials = () => {
 	return (
-		<Section className="flex flex-col items-center">
-			<div>
-				<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary mb-8">
-					Det här säger tidigare kunder:
-				</h2>
-				<div className="w-full max-w-4xl">
-					<iframe
-						className="h-80"
-						src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-						allowFullScreen
-						title="Jessica Testimonial"
-					></iframe>
-				</div>
-				<ul>
-					{testimonials.map((testimonial) => (
-						<li key={testimonial.name} className="my-8">
-							<h1>{testimonial.name}</h1>
-							<p>{testimonial.text}</p>
-						</li>
-					))}
-				</ul>
-			</div>
+		<Section className="flex flex-col justify-center items-center bg-background gap-16">
+			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary">
+				Så här säger mina tidigare kunder!
+			</h2>
+			<iframe
+				className="h-80"
+				src="https://player.vimeo.com/video/725239814?h=b6e83b9021&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+				allowFullScreen
+				title="Jessica Testimonial"
+			></iframe>
+			<ul className="flex flex-wrap gap-8">
+				{testimonials.map((testimonial) => (
+					<li
+						key={testimonial.name}
+						className="bg-gray-50 flex-auto p-8 w-80 rounded-2xl shadow-sm-light flex flex-col items-center gap-4"
+					>
+						<h3 className="font-display text-primary text-2xl">
+							{testimonial.name}
+						</h3>
+						<Image
+							width="200"
+							height="100"
+							className="rounded-full"
+							src={testimonial.image}
+							alt={testimonial.name}
+						/>
+						<p className="text-sm">{testimonial.text}</p>
+					</li>
+				))}
+			</ul>
 		</Section>
 	);
 };
