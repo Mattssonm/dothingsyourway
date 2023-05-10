@@ -73,7 +73,7 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Du har 30 dagars öppet köp.
+								Jag vill att du ska känna att ditt köp är fullständigt riskfritt. Därför har du 30 dagars öppet köp. Bara skriv ett mail och säg att du vill ha pengarna tillbaka så fixar vi det. 
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
