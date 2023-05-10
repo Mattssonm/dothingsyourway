@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "automatehero.io",
+				port: "",
+				pathname: "/api/path/**",
+			},
+		],
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

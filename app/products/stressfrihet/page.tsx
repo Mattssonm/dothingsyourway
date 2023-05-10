@@ -363,7 +363,9 @@ export default function Page() {
 				<Button>Ja jag vill bli fri från stress</Button>
 
 				<h3>Sista dag för anmälan är den 4 Juni!</h3>
-				<img
+				<Image
+					width="400"
+					height="150"
 					src="https://automatehero.io/api/path/UkJ1TW85TFdRd1RX/gif"
 					alt="countdown"
 				/>
