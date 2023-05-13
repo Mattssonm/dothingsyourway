@@ -74,16 +74,15 @@ export default function Page() {
 								bra
 							</li>
 							<li className="list-disc">
-								Du känner att ditt företags ekonomi är hotad om du inte mår
-								bättre snart
+								Du är egenföretagare och känner att ditt företags ekonomi är hotat om du inte hittar ett sätt att få mer gjort
 							</li>
 							<li className="list-disc">
-								Du är rädd att du aldrig kommer få tillräckligt med tid och
-								energi att starta upp ditt företag
+								Du vill starta företag men är rädd att du aldrig kommer få tillräckligt med tid och
+								energi att våga satsa på det
 							</li>
 							<li className="list-disc">
 								Du har dåligt samvete för att du inte kan ge familj och vänner
-								tilläckligt av din tid och energi
+								tilläckligt av din uppmärksamhet
 							</li>
 							<li className="list-disc">
 								Du känner att du aldrig hinner ikapp och att det hela tiden är
@@ -96,7 +95,7 @@ export default function Page() {
 						</ul>
 					</div>
 				</div>
-				<div className="bg-primary-dark p-12 rounded-xl max-w-3xl text-text-light font-light">
+				{/* <div className="bg-primary-dark p-12 rounded-xl max-w-3xl text-text-light font-light">
 					<ul className="list-disc pl-4 space-y-6">
 						<li className="">
 							Är du en <span className="font-bold">egenföretagare</span> som
@@ -124,7 +123,7 @@ export default function Page() {
 							ditt liv som gör att du mår bra och får mer mycket gjort?
 						</li>
 					</ul>
-				</div>
+				</div> */}
 				<h2 className="font-display text-primary text-3xl md:text-5xl pt-32">
 					Då har du kommit helt rätt!
 				</h2>

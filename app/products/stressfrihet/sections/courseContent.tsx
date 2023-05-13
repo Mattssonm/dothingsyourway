@@ -40,11 +40,11 @@ const CourseContent = () => {
 				<Accordion flush={true}>
 					<Accordion.Panel>
 						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-							1. Tid - Hur du hanterar din tid för att få rätt saker gjorda
+							1. Tid - Hur du lägger upp dina dagar effektivt så du får mer tid över till annat
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Först och främst måste vi frigöra tid för att du ska kunna jobba på dig själv. Därför börjar vi med att fastställa ditt varför och vilka personer du egentligen vill lägga din tid på. Problemet är inte att du inte har tid. Problemet är att du slösar bort den på saker som inte gör ditt liv bätttre. När du vet varför du är här och vad du ska göra med ditt liv blir det enkelt att säga nej till allt annat.
+								Först och främst måste vi frigöra tid för att du ska kunna jobba på dig själv. Därför börjar vi med att fastställa ditt varför och vilka personer du egentligen vill lägga din tid på. Problemet är inte att du inte har tid. Problemet är att du slösar bort den på saker som inte gör ditt liv bätttre. När du vet varför du är här och vad du ska göra med ditt liv blir det enkelt att säga nej till allt annat. Därefter kommer du få 3 konkreta strategier till att frigöra mer tid direkt!
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -54,7 +54,7 @@ const CourseContent = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-							Den senaste forskningen visar faktiskt att stress inte är farligt – så länge vi inte tror att det är farligt. Ja, du hörde rätt! Vårt tankesätt påverkar hur stress, på en rent biologisk nivå, påverkar vår kropp och vår hälsa. I denna del av programmet får du lära dig exakt hur du ska göra för att stress ska påverka dig på ett optimalt och hållbart sätt.
+							Den senaste forskningen visar faktiskt att stress inte är farligt – så länge vi inte tror att det är farligt. Ja, du hörde rätt! Vårt tankesätt påverkar hur stress, på en rent biologisk nivå, påverkar vår kropp och vår hälsa. I denna del av programmet, kommer vi gå igenom forskningen så att du vet exakt hur du ska göra för att stress ska påverka dig på ett optimalt och hållbart sätt.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -64,7 +64,7 @@ const CourseContent = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Självkärlek är en av de viktigaste komponenterna i ett hållbart, produktivt och lyckligt liv. Du kan helt enkelt inte ta hand om dig själv på ett bra sätt om du inte förstår på djupet att du förtjänar det. I denna del får du en djup förståelse av hur oerhört värdefull du är och varför hela världen blir en bättre plats när du känner så. Jag ger dig också kanonbra övningar för att stärka upp denna relationen med dig själv.
+								Jag får ofta höra från stressade människor att de antingen inte har problem med självkänslan eller att den inte vara lika dålig som förr. Men sanningen är att en av de största anledningnarna till varför man stressar fel är för att man är rädd för att vara otillräcklig. En hög självkänsla är en av de viktigaste komponenterna i ett hållbart, produktivt och lyckligt liv. Du kommer inte få några övningar när du ska stå i spegeln och säga 3 saker som är bra med dig själv. Det funkar inte i längden. Istället kommer du få lära dig på djupet om vem du egentligen är och då kommer du aldrig igen känna att du behöver jämföra dig själv med någon annan. Det du gör kommer kännas enkelt och du kommer inte längre vara rädd för att inte vara tillräckligt bra.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -74,13 +74,13 @@ const CourseContent = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								I denna del får du lära dig de bästa verktygen för att hålla en hög energinivå hela dagen. Förutom att gå igenom det uppenbara som sömn, träning och fritid, kommer du även att lära dig hur dina tankar, känslor och relationer påverkar energin. Efter denna del kommer du veta exakt vad du ska göra för att ha massvis av energi varje dag.
+								I denna del får du lära dig de bästa verktygen för att hålla en hög energinivå hela dagen. Förutom att gå igenom hur du optimalt hanterar din sömn, träning och fritid, kommer du även att lära dig hur du ska göra för att hantera dina tankar och känslor för att få massvis av energi. Efter denna del kommer du bygga upp rutiner och tankestrukturer som gör att du varje dag kommer känna dig mer och mer energifylld.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
 					<Accordion.Panel>
 						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-							5. Fokus - Hur du skapar maximal produktivitet igenom gedigen men enkel struktur
+							5. Fokus - Hur du skapar maximal produktivitet igenom effektiv men enkel struktur
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
@@ -90,17 +90,17 @@ const CourseContent = () => {
 					</Accordion.Panel>
 					<Accordion.Panel>
 						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-						6. Riktning - Hur du skapar en tydlig riktning i ditt liv som tar dig dit du vill
+						6. Riktning - Hur du får din vision, dina mål och dina drömmar att bli verklighet
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Du skapar fullständig klarhet i varje ögonblick i ditt liv med hjälp av två saker – fokus och riktning. Att ha riktning i sitt liv innebär att veta var man är, vart man ska och hur man ska ta sig dit. I denna delen sätter vi upp mål och en konkret plan för när du äntligen ska få säga upp dig och jobba med det du brinner för på heltid.
+								Du skapar fullständig klarhet i varje ögonblick i ditt liv med hjälp av två saker – fokus och riktning. Att ha riktning i sitt liv innebär att veta var man är, vart man ska och hur man ska ta sig dit. Du kommer lära dig strategierna jag själv använder för att se till så att du varje dag inte bara gör många saker utan rätt saker som är i linje med vad du verkligen vill uppnå i ditt liv. 
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
 				</Accordion>
 			</div>
-			<Button>Vill du vara med?</Button>
+			<Button>Ja jag vill skapa mer frihet redan idag</Button>
 		</Section>
 	);
 };
