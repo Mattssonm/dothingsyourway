@@ -6,7 +6,7 @@ import RemainingSpots from "./remainingSpots";
 const PurchaseSection = () => {
 	return (
 		<Section
-			className="flex flex-col items-center bg-secondary gap-16"
+			className="flex flex-col items-center bg-secondary-dark gap-16"
 			id="purchase"
 		>
 			<h2 className="font-display text-white text-3xl md:text-5xl uppercase text-center">
@@ -22,6 +22,15 @@ const PurchaseSection = () => {
 				<p className="text-xs uppercase text-gray-500 tracking-wide">
 					Stressfrihet - 12-veckorsprogrammet
 				</p>
+				<Image
+					className="rounded-xl"
+					width="400"
+					height="150"
+					src="https://automatehero.io/api/path/UkJ1TW85TFdRd1RX/gif"
+					alt="countdown"
+				/>
+				<h3>Sista dag för anmälan är den 4 Juni!</h3>
+				<RemainingSpots />
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Upplägg
 				</h3>
@@ -72,7 +81,7 @@ const PurchaseSection = () => {
 				</ul>
 				<h3>Totalt värde: 57 000 kr</h3>
 
-				<h3>Du betalat endast: 9970 kr</h3>
+				<h3>Du betalar endast: 9970 kr</h3>
 				<Button
 					variant="secondary"
 					type="link"
@@ -81,16 +90,6 @@ const PurchaseSection = () => {
 				>
 					Jag vill ha tillgång till kursen nu!
 				</Button>
-
-				<h3>Sista dag för anmälan är den 4 Juni!</h3>
-				<Image
-					className="rounded-xl"
-					width="400"
-					height="150"
-					src="https://automatehero.io/api/path/UkJ1TW85TFdRd1RX/gif"
-					alt="countdown"
-				/>
-				<RemainingSpots />
 			</div>
 		</Section>
 	);
