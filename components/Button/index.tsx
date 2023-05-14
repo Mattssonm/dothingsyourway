@@ -17,19 +17,24 @@ const Button = ({
 	href,
 	...props
 }: ButtonProps) => {
+	const backgroundColor = variant === "primary" ? "bg-secondary" : "bg-primary";
 	const buttonStyles =
-		"bg-secondary text-text-light text-sm md:text-base px-4 py-2 rounded-md hover:bg-secondary-dark transition-colors duration-200 ease-in-out w-max";
+		"text-text-light text-sm md:text-base px-8 py-4 rounded-md hover:bg-secondary-dark transition-colors duration-200 ease-in-out w-max";
 
 	if (type === "link") {
 		return (
-			<a href={href} className={[buttonStyles, className].join(" ")} {...props}>
+			<a
+				href={href}
+				className={[buttonStyles, backgroundColor, className].join(" ")}
+				{...props}
+			>
 				{children}
 			</a>
 		);
 	} else {
 		return (
 			<button
-				className={[buttonStyles, className].join(" ")}
+				className={[buttonStyles, backgroundColor, className].join(" ")}
 				onClick={onClick}
 				{...props}
 			>

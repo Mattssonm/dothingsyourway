@@ -50,9 +50,9 @@ const RemainingSpots = () => {
 		<>
 			{data && (
 				<>
-					<h1>
+					<p className="italic">
 						Det finns just nu endast {data.remaining} platser kvar!
-					</h1>
+					</p>
 				</>
 			)}
 		</>

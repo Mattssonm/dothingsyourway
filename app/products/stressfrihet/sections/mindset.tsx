@@ -9,12 +9,14 @@ export const MindsetSection = () => {
 				Fel mindset kan göra dig allvarligt sjuk!
 			</h2>
 			<div className="flex flex-col md:flex-row items-center gap-8">
-				<Image
-					src="/images/medicine.svg"
-					width={700}
-					height={600}
-					alt="Illustration of a woman and a man sitting in chairs discussing"
-				/>
+				<div className="basis-2/3">
+					<Image
+						src="/images/medicine.svg"
+						width={700}
+						height={600}
+						alt="Illustration of a woman and a man sitting in chairs discussing"
+					/>
+				</div>
 				<div className="bg-background p-8 rounded-2xl max-w-2xl flex flex-col gap-2">
 					<div className="flex flex-col items-center gap-4 mb-8 mt-4">
 						<h2 className="font-display text-xl md:text-2xl text-primary">

@@ -28,7 +28,7 @@ const FAQSection = () => {
 								korta videor, övningar och PDFer. Sen kommer du hänga med live i
 								12 gruppcoachingstillfällen där jag kommer coacha en i gruppen
 								och dom andra får lära sig av klientens utveckling. Materialet
-								från de två sista modulerna kommer du få senare då de uppdateras 
+								från de två sista modulerna kommer du få senare då de uppdateras
 								och optimeras utifrån feedback från tidigare kursdeltagare.
 							</p>
 						</Accordion.Content>
@@ -39,9 +39,10 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan. Tanken är att du
-								ska lägga cirka 1 timme i veckan på videorna och övningar. Men om du har svårt att hinna med 
-								så kan du också göra klart modulerna senare.
+								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan.
+								Tanken är att du ska lägga cirka 1 timme i veckan på videorna
+								och övningar. Men om du har svårt att hinna med så kan du också
+								göra klart modulerna senare.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -64,8 +65,8 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Du har tillgång till materialet på livstid och kan gå igenom kursen i din egen
-								takt.
+								Du har tillgång till materialet på livstid och kan gå igenom
+								kursen i din egen takt.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -75,7 +76,9 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Jag vill att du ska känna att ditt köp är fullständigt riskfritt. Därför har du 30 dagars öppet köp. Bara skriv ett mail och säg att du vill ha pengarna tillbaka så fixar vi det. 
+								Jag vill att du ska känna att ditt köp är fullständigt
+								riskfritt. Därför har du 30 dagars öppet köp. Bara skriv ett
+								mail och säg att du vill ha pengarna tillbaka så fixar vi det.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -111,14 +114,16 @@ const FAQSection = () => {
 								På kvittot du får kommer det stå “produktivitet för företagare”
 								och att 25% moms är inkluderat. Detta är avdragsgillt som du kan
 								ta med i ditt företag. Har du inget företag idag kan du spara
-								kvittot och ta med det den dagen du startar företaget i upp till 5
-								år.
+								kvittot och ta med det den dagen du startar företaget i upp till
+								5 år.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
 				</Accordion>
 			</div>
-			<Button>Jag vill ha tillgång till kursen nu!</Button>
+			<Button type="link" href="#purchase">
+				Jag vill ha tillgång till kursen nu!
+			</Button>
 		</Section>
 	);
 };

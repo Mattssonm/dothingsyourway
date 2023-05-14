@@ -29,6 +29,7 @@ module.exports = {
 			"text-light": "hsla(195, 0%, 90%, 1.0)",
 			secondary: "hsla(14, 60%, 45%, 1.0)",
 			"secondary-dark": "hsla(14, 60%, 35%, 1.0)",
+			"secondary-darkest": "hsla(14, 30%, 20%, 1.0)",
 		},
 	},
 	corePlugins: {
