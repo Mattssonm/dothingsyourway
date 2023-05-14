@@ -6,12 +6,13 @@ import FAQSection from "./sections/faq";
 import About from "@/components/About";
 import Image from "next/image";
 import CourseContent from "./sections/courseContent";
-import Testimonials from "./sections/testimonials";
+import TestimonialsSection from "./sections/testimonials";
 import RemainingSpots from "./sections/remainingSpots";
 import HeroSection from "./sections/hero";
 import VideoSection from "./sections/video";
 import RecognizeSection from "./sections/recognize";
 import TimeAndEnergySection from "./sections/timeAndEnergy";
+import MethodSection from "./sections/method";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -26,69 +27,8 @@ export default function Page() {
 			<RecognizeSection />
 			<TimeAndEnergySection />
 			<About />
-			<Section className="flex flex-col bg-primary-dark items-center">
-				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
-					3 anledningar till varför denna metod förändrar allt
-				</h2>
-				<div className="bg-background p-16 rounded-2xl max-w-4xl flex flex-col gap-4">
-					<p>
-						1. Stressen är bra för dig och du behöver inte undvika den om du lär
-						dig skifta ditt mindset
-					</p>
-					<p>
-						Den senaste forskningen har visat att när du ändrar ditt mindset och
-						slutar tänka att stress är farligt, så kommer det inte längre vara
-						farligt.
-					</p>
-					<p>
-						Detta har upprepats på tusentals människor tidigare och du kommer
-						lära dig allt i programmet för att göra detta med.
-					</p>
-					<p>
-						2. Förbättra din självkänsla på djupet igenom att förändra din
-						relation till dig själv
-					</p>
-					<p>
-						Istället för att du ska skriva 3 saker som är bra med dig själv, som
-						är oerhört ineffektivt, jobbar vi istället på djupet med den du
-						verkligen är.
-					</p>
-					<p>
-						När du lär dig detta kommer du inse att istället för att försöka
-						höja dig själv i rankningen mot andra, så kommer du få en djupare
-						förståelse om att vi alla är en och samma.
-					</p>
-					<p>
-						Och därför kommer du aldrig igen höja eller sänka dig själv oavsett
-						om du misslyckas eller lyckas.
-					</p>
-					<p>
-						3. Du kommer få riktiga system som naturligt kommer göra dig
-						produktiv och effektiv.
-					</p>
-					<p>
-						Istället för att du ska få en massa produktivitetstips som är svåra
-						att implementera, så kommer du få system, alltså faktiska
-						datorsystem som kommer hjälpa dig att göra det du behöver.
-					</p>
-					<p>
-						Du kommer få kunskaper varvat med mallar från den populära
-						produktivitetsappen Notion, där du skapar rutiner och sätter mål som
-						du sedan enkelt kan följa i din mobil, padda eller dator.
-					</p>
-					<p>
-						Detta kommer göra att livet känns enkelt och roligt. Du kommer
-						ständigt vara i flow och varje dag komma närmare dagen då du lever
-						ditt drömliv
-					</p>
-					<p>Och bäst av allt!</p>
-					<p>
-						Det finns gott om personer som upplevt dessa resultat i deras egna
-						liv!
-					</p>
-				</div>
-			</Section>
-			<Testimonials />
+			<MethodSection />
+			<TestimonialsSection />
 			<CourseContent />
 			<Section className="flex flex-col items-center" id="purchase">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">

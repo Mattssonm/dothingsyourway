@@ -50,7 +50,7 @@ const testimonials: Testimonial[] = [
 	},
 ];
 
-const Testimonials = () => {
+const TestimonialsSection = () => {
 	return (
 		<Section className="flex flex-col justify-center items-center bg-background gap-16">
 			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary">
@@ -86,4 +86,4 @@ const Testimonials = () => {
 	);
 };
 
-export default Testimonials;
+export default TestimonialsSection;

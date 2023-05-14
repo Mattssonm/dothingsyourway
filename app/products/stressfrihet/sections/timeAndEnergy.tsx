@@ -9,7 +9,7 @@ const TimeAndEnergySection = () => {
 			</h2>
 			<div className="flex flex-col-reverse md:flex-row items-center mb-16">
 				<div className="w-full basis-1/2 flex flex-col space-y-4 bg-background p-16 rounded-2xl text-text-dark">
-					<h3 className="font-display mb-4 text-primary text-2xl">
+					<h3 className="font-display mb-4 text-primary text-xl md:text-2xl">
 						Det absolut viktigaste du har i ditt liv är din tid och energi...
 					</h3>
 					<p>
