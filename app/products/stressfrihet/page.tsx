@@ -11,6 +11,7 @@ import RemainingSpots from "./sections/remainingSpots";
 import HeroSection from "./sections/hero";
 import VideoSection from "./sections/video";
 import RecognizeSection from "./sections/recognize";
+import TimeAndEnergySection from "./sections/timeAndEnergy";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -23,50 +24,7 @@ export default function Page() {
 			<HeroSection />
 			<VideoSection />
 			<RecognizeSection />
-			<Section className="flex flex-col">
-				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
-					Hanteringen av tiden och energin har aldrig varit viktigare
-				</h2>
-				<p>De absolut viktigaste du har i ditt liv är din tid och energi.</p>
-				<p>
-					Men stressen och en hela tiden ökande mängd av saker som måste göras,
-					gör att det tiden och energin känns omöjligt att få till…
-				</p>
-				<p>
-					Och det värsta av allt är att det bara blir värre desto längre tid man
-					skjuter på det...
-				</p>
-				<p>
-					Tänk på hur många år av ditt liv du redan mått dåligt av stressen och
-					varit frustrerad över att du inte kommer framåt snabbare.
-				</p>
-				<p>
-					Hur länge till ska du försöka undvika stress och försöka återhämta dig
-					mer när det uppenbarligen inte fungerar?
-				</p>
-				<p>Inte en sekund till...</p>
-				<p>
-					Eftersom du nu kommer lära dig hur förvandlar all negativ stress till
-					positiv så du inte längre kommer behöver lika mycket återhämtning.
-				</p>
-				<p>
-					Med detta som jag ska visa dig nu kommer du kunna öka antalet timmar
-					du kan jobba OCH må bra med 20 timmar i veckan.
-				</p>
-				<p>
-					Det är det du kan förvänta dig när du följer min metod för att jobba
-					med stress, energi och produktivitet.
-				</p>
-				<p>
-					Igenom att jobba med ditt mindset, skapa bra strukturer och stärka dig
-					som människa, kommer du må bättre och få mer resultat än du någonsin
-					fått gjort.
-				</p>
-				<p>
-					Detta har särskilt designats för dig som är eller vill bli företagare
-					då det kräver en helt annan metod jämfört med annan stresshantering.
-				</p>
-			</Section>
+			<TimeAndEnergySection />
 			<About />
 			<Section className="flex flex-col bg-primary-dark items-center">
 				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
