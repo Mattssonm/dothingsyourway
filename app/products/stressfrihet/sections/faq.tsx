@@ -26,8 +26,7 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Du kommer direkt idag få tillgång till fyra moduler med med 38
 								korta videor, övningar och PDFer. Sen kommer du hänga med live i
-								12 gruppcoachingstillfällen där jag kommer coacha en i gruppen
-								och dom andra får lära sig av klientens utveckling. Materialet
+								12 gruppcoachingstillfällen där alla deltagare coachas och vi lär av varandra. Materialet
 								från de två sista modulerna kommer du få senare då de uppdateras
 								och optimeras utifrån feedback från tidigare kursdeltagare.
 							</p>
@@ -54,8 +53,7 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Detta funkar för alla som har problem med stress oavsett ålder
 								och yrke. Även antalet barn, ev. sjukskrivning och hur många
-								marsvin du har (så länge du har mindre än 103 st) kommer inte
-								påverka ditt resultat.
+								marsvin du har kommer inte påverka ditt resultat. 🐹
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -101,7 +99,7 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Av säkerhetsskäl erbjuder jag endast kortbetalning. Vill du ha
 								ett annat kvitto/faktura än bekräftelsen på mailen när du betalt
-								kan du höra av dig så fixar vi det.
+								kan du maila mig på markus@dothingsyourway.com så fixar vi det.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>

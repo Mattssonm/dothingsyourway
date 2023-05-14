@@ -21,31 +21,31 @@ const RecognizeSection = () => {
 					<div className="w-full basis-3/5 flex flex-col space-y-4 text-text-dark">
 						<ul className="pl-8 space-y-2 mb-8">
 							<li className="list-disc">
-								Du är trött på att må dåligt av stressen
+								Du är trött på att <span className="font-bold">må dåligt av stressen</span>
 							</li>
 							<li className="list-disc">
-								Du känner att du aldrig hinner ikapp och att det hela tiden är
+								Du känner att du <span className="font-bold">aldrig hinner ikapp</span> och att det hela tiden är
 								mer och mer att göra
 							</li>
 							<li className="list-disc">
-								Du tänker att du kanske måste sänka dina ambitioner och
+								Du tror att du kanske <span className="font-bold">måste sänka dina ambitioner</span> och
 								kompromissa med dina drömmar
 							</li>
 							<li className="list-disc">
-								Du är egenföretagare och känner att ditt företags ekonomi är
+								<span className="font-bold">Du är egenföretagare</span> och känner att ditt företags ekonomi är
 								hotat om du inte hittar ett sätt att få mer gjort
 							</li>
 							<li className="list-disc">
-								Du vill starta företag men är rädd att du aldrig kommer få
+								<span className="font-bold">Du vill starta företag</span> men är rädd att du aldrig kommer få
 								tillräckligt med tid och energi att våga satsa på det
 							</li>
 							<li className="list-disc">
-								Du har dåligt samvete för att du inte kan ge familj och vänner
+								Du har <span className="font-bold">dåligt samvete</span> för att du inte kan ge familj och vänner
 								tilläckligt av din uppmärksamhet
 							</li>
 							<li className="list-disc">
 								Du upplever att hur mycket du än försöker skapa struktur och
-								rutin så blir allting rörigt ändå
+								rutin <span className="font-bold">så blir allting rörigt ändå</span>
 							</li>
 						</ul>
 					</div>

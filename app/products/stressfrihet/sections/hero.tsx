@@ -21,11 +21,10 @@ const HeroSection = () => {
 					Få mer gjort och må fantastiskt bra utan att stressa mindre
 				</h3>
 				<p className="font-thin italic w-96">
-					En 12-veckors kurs där du lär dig förvandla all negativ stress till
-					positiv genom att installera ett nytt mindset
+					En 12-veckors kurs där du lär dig använda positiv stress för att nå dina mål.
 				</p>
 				<Button type="link" href="#purchase">
-					Ja, jag vill bli fri från negativ stress!
+					Reservera min plats nu!
 				</Button>
 			</div>
 		</Section>

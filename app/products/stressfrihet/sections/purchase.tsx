@@ -30,7 +30,6 @@ const PurchaseSection = () => {
 					alt="countdown"
 				/>
 				<h3>Sista dag för anmälan är den 4 Juni!</h3>
-				<RemainingSpots />
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Upplägg
 				</h3>
@@ -38,15 +37,14 @@ const PurchaseSection = () => {
 					Programmet består av sex delar och pågår under 12 veckor. Du får
 					tillgång till alla videor och övningar idag och sen ses vi varje vecka
 					för gruppcoaching. Där får du chans och ställa frågor och få coaching
-					så att du direkt ska kunna tillämpa dina nya kunskaper. Du kan läsa
-					mer om varje del om du skrollar lite längre ner.
+					så att du direkt ska kunna tillämpa dina nya kunskaper.
 				</p>
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					När sätter det igång?
 				</h3>
 				<p>
-					Kurstart är den tisdagen den 13 Juni. Alla tillfällen är på tisdagar
-					mellan kl 18:00 – 19:15.
+					Kurstart är den <span className="font-bold">tisdagen den 13 Juni</span>. Alla tillfällen är på tisdagar
+					mellan kl 18:00 – 19:15. Vecka 29 och 30 är det semesteruppehåll. Därför blir det sista tillfället den 12 September.
 				</p>
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Vad du får:
@@ -54,42 +52,45 @@ const PurchaseSection = () => {
 				<ul className="list-disc ml-8 flex flex-col gap-4">
 					<li>
 						Sex moduler med tillhörande arbetsmaterial (pdf:er, övningar m.m.) 
-						<span className="italic">(värde 16 000 kr)</span>
+						<span className="italic font-bold">(värde 16 000 kr)</span>
 					</li>
 					<li>
 						12 gruppcoachningstillfällen 
-						<span className="italic">(värde 15 000 kr)</span>
+						<span className="italic font-bold">(värde 15 000 kr)</span>
 					</li>
 					<li>
 						Tre månaders tillgång till sluten Facebookgrupp där där du kan få
 						svar på dina frågor och där vi gemensamt pushar varandra{" "}
-						<span className="italic">(värde 9000 kr)</span>
+						<span className="italic font-bold">(värde 6000 kr)</span>
 					</li>
 					<li>
+						<span className="font-bold">BONUS 1!</span> - 
 						En kopia av mitt moderna och avancerade affärssystem som jag själv
 						använder för mitt företagande, min personliga utveckling och
 						produktivitet. Detta system får du behålla för alltid och jag kommer
 						lära dig hur du anpassar det efter dina behov 
-						<span className="italic">(värde 15 000 kr)</span>
+						<span className="italic font-bold">(värde 15 000 kr)</span>
 					</li>
 					<li>
-						BONUS – Dessutom kommer du få videoserien "Hållbara Dagar", som
+						<span className="font-bold">BONUS 2!!</span> – Dessutom kommer du få videoserien "Hållbara Dagar", som
 						består av tre videor på sammanlagt en timme som lär dig allt om hur
 						du skapar hållbarhet i din energi och ekonomi 
-						<span className="italic">(värde 2000 kr)</span>
+						<span className="italic font-bold">(värde 2000 kr)</span>
 					</li>
 				</ul>
-				<h3>Totalt värde: 57 000 kr</h3>
+				<h3 className="font-bold">Totalt värde: 54 000 kr</h3>
 
-				<h3>Du betalar endast: 9970 kr</h3>
-				<Button
+				<h3 className="font-bold mt-10 text-xl md:text-2xl "> Du betalar endast: <span className="text-red-600">9970 kr</span></h3>
+				<Button className="mb-10"
 					variant="secondary"
 					type="link"
 					href="https://automatehero.io/api/path/UkJDTG85TFdRd1RW"
 					target="_blank"
 				>
-					Jag vill ha tillgång till kursen nu!
+					Reservera min plats nu
 				</Button>
+
+				<RemainingSpots />
 			</div>
 		</Section>
 	);
