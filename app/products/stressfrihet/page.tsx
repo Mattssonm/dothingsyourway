@@ -14,6 +14,7 @@ import RecognizeSection from "./sections/recognize";
 import TimeAndEnergySection from "./sections/timeAndEnergy";
 import MethodSection from "./sections/method";
 import HowToSection from "./sections/howTo";
+import MindsetSection from "./sections/mindset";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -93,41 +94,7 @@ export default function Page() {
 				/>
 				<RemainingSpots />
 			</Section>
-			<Section className="flex flex-col bg-primary-dark items-center">
-				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
-					Fel mindset kan göra dig allvarligt sjuk!
-				</h2>
-				<p>I en studie frågade man 30.000 amerikaner:</p>
-				<ul>
-					<li>Hur mycket stress har du upplevt det senaste året?</li>
-					<li>Tror du att stress är skadligt för din hälsa?</li>
-				</ul>
-				<p>8 år senare tittade man på vilka som fortfarande levde.</p>
-				<p>
-					Det visade sig att de som hade upplevt mycket stress hade ökad risk
-					att dö med hela 43%!
-				</p>
-				<p>Men endast om man också trodde att stress var skadligt...</p>
-				<p>
-					Det absolut mest häpnadsväckande var att de som sa att de hade upplevt
-					mycket stress och sa att stress inte påverkade deras hälsa hade lägst
-					risk att dö av alla i hela studien!
-				</p>
-				<p>
-					Mycket positiv stress är alltså det bästa för din hälsa medan mycket
-					negativ stress är direkt livsfarligt!
-				</p>
-				<p>Jag menar inte att skrämma dig...</p>
-				<p>
-					Jag vill bara att du tar detta på allvar och gör allt du kan för att
-					skydda din hälsa och uppnå det du vill i ditt liv.
-				</p>
-				<p>
-					Så tryck på knappen nedan för att gå med i programmet och få tillgång
-					till kursmaterialet idag!
-				</p>
-				<Button>Jag vill ha tillgång till kursen nu!</Button>
-			</Section>
+			<MindsetSection />
 			<FAQSection />
 			<Footer />
 		</>
