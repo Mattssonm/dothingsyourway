@@ -1,10 +1,11 @@
+import Button from "@/components/Button";
 import Section from "@/components/Section";
 import Image from "next/image";
 
 const MethodSection = () => {
 	return (
-		<Section className="flex flex-col items-center">
-			<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary">
+		<Section className="flex flex-col items-center space-y-8">
+			<h2 className="font-display text-3xl md:text-5xl uppercase mb-8 text-center text-primary">
 				Tre anledningar till varför denna metod förändrar allt
 			</h2>
 			<Image
@@ -69,6 +70,9 @@ const MethodSection = () => {
 					resultat i deras egna liv!
 				</p>
 			</div>
+			<Button type="link" href="#purchase">
+				Ja jag vill bli fri från negativ stress
+			</Button>
 		</Section>
 	);
 };
