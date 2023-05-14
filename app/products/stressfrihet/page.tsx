@@ -220,7 +220,7 @@ export default function Page() {
 			</Section>
 			<Testimonials />
 			<CourseContent />
-			<Section className="flex flex-col items-center">
+			<Section className="flex flex-col items-center" id="purchase">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
 					Bli fri från stress idag!
 				</h2>
