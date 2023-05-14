@@ -8,12 +8,12 @@ const HeroSection = () => {
 			<div>
 				<Image
 					src="/images/organizing.svg"
-					width={800}
+					width={1200}
 					height={600}
 					alt="Organizing"
 				/>
 			</div>
-			<div className="flex flex-col justify-center items-end space-y-4">
+			<div className="w-full flex flex-col justify-center items-end space-y-4 p-4">
 				<h2 className="text-4xl md:text-6xl font-display uppercase">
 					Stressfrihet
 				</h2>
