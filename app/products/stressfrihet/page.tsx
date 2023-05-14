@@ -5,7 +5,7 @@ import Section from "@/components/Section";
 import FAQSection from "./sections/faq";
 import About from "@/components/About";
 import Image from "next/image";
-import CourseContent from "./sections/courseContent";
+import ModulesSection from "./sections/modules";
 import TestimonialsSection from "./sections/testimonials";
 import RemainingSpots from "./sections/remainingSpots";
 import HeroSection from "./sections/hero";
@@ -13,6 +13,7 @@ import VideoSection from "./sections/video";
 import RecognizeSection from "./sections/recognize";
 import TimeAndEnergySection from "./sections/timeAndEnergy";
 import MethodSection from "./sections/method";
+import HowToSection from "./sections/howTo";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -29,7 +30,8 @@ export default function Page() {
 			<About />
 			<MethodSection />
 			<TestimonialsSection />
-			<CourseContent />
+			<HowToSection />
+			<ModulesSection />
 			<Section className="flex flex-col items-center" id="purchase">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
 					Bli fri från stress idag!

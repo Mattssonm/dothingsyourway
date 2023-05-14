@@ -52,8 +52,8 @@ const testimonials: Testimonial[] = [
 
 const TestimonialsSection = () => {
 	return (
-		<Section className="flex flex-col justify-center items-center bg-background gap-16">
-			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary">
+		<Section className="flex flex-col justify-center items-center bg-primary-dark gap-16">
+			<h2 className="font-display text-center uppercase text-3xl md:text-5xl text-primary-light">
 				Så här säger mina tidigare kunder!
 			</h2>
 			<iframe
@@ -66,7 +66,7 @@ const TestimonialsSection = () => {
 				{testimonials.map((testimonial) => (
 					<li
 						key={testimonial.name}
-						className="bg-gray-50 flex-auto p-8 w-80 rounded-2xl shadow-sm-light flex flex-col items-center gap-4"
+						className="bg-background flex-auto p-8 w-80 rounded-2xl shadow-sm-light flex flex-col items-center gap-4"
 					>
 						<h3 className="font-display text-primary text-2xl">
 							{testimonial.name}
