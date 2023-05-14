@@ -31,7 +31,10 @@ module.exports = {
 			"secondary-dark": "hsla(14, 60%, 35%, 1.0)",
 		},
 	},
-	plugins: [require("flowbite/plugin")],
+	corePlugins: {
+		aspectRatio: false,
+	},
+	plugins: [require("flowbite/plugin"), require("@tailwindcss/aspect-ratio")],
 };
 
 export type Color =
