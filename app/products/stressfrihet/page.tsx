@@ -9,6 +9,8 @@ import CourseContent from "./sections/courseContent";
 import Testimonials from "./sections/testimonials";
 import RemainingSpots from "./sections/remainingSpots";
 import HeroSection from "./sections/hero";
+import VideoSection from "./sections/video";
+import RecognizeSection from "./sections/recognize";
 
 export const metadata = {
 	title: "Do Things Your Way | Stressfrihet",
@@ -19,98 +21,8 @@ export default function Page() {
 		<>
 			<Header variant="light" />
 			<HeroSection />
-			<Section className="bg-primary-darkest flex flex-col items-center justify-center md:min-h-screen">
-				<iframe
-					title="vimeo-player"
-					src="https://player.vimeo.com/video/819764615?h=658f9043e9"
-					width="1024"
-					height="600"
-					allowFullScreen
-				></iframe>
-				<Button>Ja, jag vill bli fri från stress!</Button>
-			</Section>
-			<Section className="flex flex-col items-center">
-				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
-					Känner du igen dig i något av det här?
-				</h2>
-				<div className="flex flex-col md:flex-row items-center mb-16">
-					<div className="basis-2/5">
-						<Image
-							src="/images/working.png"
-							width={700}
-							height={600}
-							alt="Markus"
-						/>
-					</div>
-					<div className="w-full basis-3/5 flex flex-col space-y-4 text-text-dark">
-						<ul className="pl-8 space-y-2 mb-8">
-							<li className="list-disc">
-								Du är trött på att må dåligt av stressen
-							</li>
-							<li className="list-disc">
-								Du känner att du aldrig hinner ikapp och att det hela tiden är
-								mer och mer att göra
-							</li>
-							<li className="list-disc">
-								Du tänker att du kanske måste sänka dina ambitioner och
-								kompromissa med dina drömmar
-							</li>
-							<li className="list-disc">
-								Du är egenföretagare och känner att ditt företags ekonomi är
-								hotat om du inte hittar ett sätt att få mer gjort
-							</li>
-							<li className="list-disc">
-								Du vill starta företag men är rädd att du aldrig kommer få
-								tillräckligt med tid och energi att våga satsa på det
-							</li>
-							<li className="list-disc">
-								Du har dåligt samvete för att du inte kan ge familj och vänner
-								tilläckligt av din uppmärksamhet
-							</li>
-							<li className="list-disc">
-								Du upplever att hur mycket du än försöker skapa struktur och
-								rutin så blir allting rörigt ändå
-							</li>
-						</ul>
-					</div>
-				</div>
-				{/* <div className="bg-primary-dark p-12 rounded-xl max-w-3xl text-text-light font-light">
-					<ul className="list-disc pl-4 space-y-6">
-						<li className="">
-							Är du en <span className="font-bold">egenföretagare</span> som
-							vill lära dig att hantera stress på ett sätt som faktiskt funkar
-							för dom som har höga mål?
-						</li>
-						<li className="">
-							Är du en <span className="font-bold">blivande företagare </span>
-							som vill starta eget men tiden och energin räcker inte till för
-							att satsa på företaget?
-						</li>
-						<li className="">
-							Har du varit <span className="font-bold">utbränd</span> och vill
-							få tillbaka all den energi du haft och mer därtill, trots att
-							läkaren sagt att det aldrig kommer gå?
-						</li>
-						<li className="">
-							Vill du se till så att du{" "}
-							<span className="font-bold">aldrig riskerar</span> att gå i väggen
-							och samtidigt få den snabbaste vägen till att känna dig fri från
-							all stress i ditt liv?
-						</li>
-						<li className="">
-							Vill du bygga upp en <span className="font-bold">struktur</span> i
-							ditt liv som gör att du mår bra och får mer mycket gjort?
-						</li>
-					</ul>
-				</div> */}
-				<h2 className="font-display text-primary text-3xl md:text-5xl pt-32">
-					Då har du kommit helt rätt!
-				</h2>
-				<p className="italic pb-8">
-					Faktum är att jag vet precis hur frustrerande det är...
-				</p>
-				<Button>Ja jag vill bli fri från negativ stress</Button>
-			</Section>
+			<VideoSection />
+			<RecognizeSection />
 			<Section className="flex flex-col">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
 					Hanteringen av tiden och energin har aldrig varit viktigare
