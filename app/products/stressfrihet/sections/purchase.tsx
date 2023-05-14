@@ -72,7 +72,7 @@ const PurchaseSection = () => {
 						<span className="italic font-bold">(värde 15 000 kr)</span>
 					</li>
 					<li>
-						<span className="font-bold">BONUS 2!!</span> – Dessutom kommer du få videoserien "Hållbara Dagar", som
+						<span className="font-bold">BONUS 2!!</span> – Dessutom kommer du få videoserien {`"Hållbara Dagar"`}, som
 						består av tre videor på sammanlagt en timme som lär dig allt om hur
 						du skapar hållbarhet i din energi och ekonomi 
 						<span className="italic font-bold">(värde 2000 kr)</span>
