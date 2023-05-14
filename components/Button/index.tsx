@@ -5,6 +5,7 @@ export interface ButtonProps {
 	children: React.ReactNode;
 	onClick?: () => void;
 	href?: string;
+	target?: string;
 	props?: any;
 }
 
@@ -15,6 +16,7 @@ const Button = ({
 	onClick,
 	className,
 	href,
+	target,
 	...props
 }: ButtonProps) => {
 	const backgroundColor = variant === "primary" ? "bg-secondary" : "bg-primary";
@@ -25,6 +27,7 @@ const Button = ({
 		return (
 			<a
 				href={href}
+				target={target}
 				className={[buttonStyles, backgroundColor, className].join(" ")}
 				{...props}
 			>
