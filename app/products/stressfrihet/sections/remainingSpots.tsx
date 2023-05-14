@@ -51,8 +51,7 @@ const RemainingSpots = () => {
 			{data && (
 				<>
 					<h1>
-						Det finns just nu {data.remaining} platser kvar av {data.total}{" "}
-						möjliga!
+						Det finns just nu endast {data.remaining} platser kvar!
 					</h1>
 				</>
 			)}

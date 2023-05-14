@@ -37,6 +37,21 @@ const About = () => {
 						förutsättningar du behöver för att kunna nå ditt mål att äntligen
 						bli fri och skapa ett tryggt liv som företagare!
 					</p>
+					{/* <p>Jag har själv varit utbränd.</p>
+					<p>Jag har själv haft problem med depression hela mitt vuxna liv.</p>
+					<p>
+						Jag har haft så mycket problem så jag var tvungen att hitta en
+						lösning.
+					</p>
+					<p>
+						Efter att ha prövat allt möjligt på mig själv så har jag utvecklat en
+						metod som sedan testats och noggrant utvecklats på många stressade
+						företagare.
+					</p>
+					<p>
+						Denna metod har jag sammanställt i en enkel, steg för steg process,
+						för att du också ska få känna hur det är att leva i Stressfrihet.
+					</p> */}
 				</div>
 				<div className="w-max-m h-auto flex align-center justify-center">
 					<Image

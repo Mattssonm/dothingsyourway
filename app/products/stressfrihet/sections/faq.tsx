@@ -2,6 +2,7 @@
 import Section from "@/components/Section";
 import { Accordion } from "flowbite-react";
 import Image from "next/image";
+import Button from "@/components/Button";
 
 const FAQSection = () => {
 	return (
@@ -25,10 +26,10 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Du kommer direkt idag få tillgång till fyra moduler med med 38
 								korta videor, övningar och PDFer. Sen kommer du hänga med live i
-								10 gruppcoachingstillfällen där jag kommer coacha en i gruppen
+								12 gruppcoachingstillfällen där jag kommer coacha en i gruppen
 								och dom andra får lära sig av klientens utveckling. Materialet
-								från de två sista modulerna kommer du få senare då de uppdateras
-								utifrån feedback från tidigare kursdeltagare.
+								från de två sista modulerna kommer du få senare då de uppdateras 
+								och optimeras utifrån feedback från tidigare kursdeltagare.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -38,8 +39,9 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan. Du
-								behöver lägga cirka 1 timme i veckan på videorna och övningar.
+								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan. Tanken är att du
+								ska lägga cirka 1 timme i veckan på videorna och övningar. Men om du har svårt att hinna med 
+								så kan du också göra klart modulerna senare.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -62,7 +64,7 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Du har tillgång på livstid och kan gå igenom materialet i din
+								Du har tillgång till materialet på livstid och kan gå igenom kursen i din egen
 								takt.
 							</p>
 						</Accordion.Content>
@@ -109,13 +111,14 @@ const FAQSection = () => {
 								På kvittot du får kommer det stå “produktivitet för företagare”
 								och att 25% moms är inkluderat. Detta är avdragsgillt som du kan
 								ta med i ditt företag. Har du inget företag idag kan du spara
-								kvittot och ta med det den dagen du startar upp det i upp till 5
+								kvittot och ta med det den dagen du startar företaget i upp till 5
 								år.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
 				</Accordion>
 			</div>
+			<Button>Jag vill ha tillgång till kursen nu!</Button>
 		</Section>
 	);
 };

@@ -31,14 +31,12 @@ export default function Page() {
 						Stressfrihet
 					</h2>
 					<h3 className="font-display text-xl md:text-2xl">
-						Bli fri från stress, få massvis med energi och mer gjort än
-						någonsin!
+						Få mer gjort och må fantastiskt bra utan att stressa mindre
 					</h3>
 					<p className="font-thin italic w-96">
-						Ett 12-veckors coaching- och utbildningsprogram med fokus på stress,
-						energi och produktivitet
+						En 12-veckors kurs där du lär dig förvandla all negativ stress till positiv igenom att installera nytt mindset. 
 					</p>
-					<Button>Ja jag vill bli fri från stress</Button>
+					<Button>Ja jag vill bli fri från negativ stress</Button>
 				</div>
 			</Section>
 			<Section className="bg-primary-darkest flex items-center justify-center md:min-h-screen">
@@ -67,11 +65,14 @@ export default function Page() {
 					<div className="w-full basis-3/5 flex flex-col space-y-4 text-text-dark">
 						<ul className="pl-8 space-y-2 mb-8">
 							<li className="list-disc">
-								Du är orolig för vad stressen gör med din hälsa
+								Du är trött på att må dåligt av stressen
 							</li>
 							<li className="list-disc">
-								Du tänker att du kanske måste sänka dina ambitioner för att må
-								bra
+								Du känner att du aldrig hinner ikapp och att det hela tiden är
+								mer och mer att göra
+							</li>
+							<li className="list-disc">
+								Du tänker att du kanske måste sänka dina ambitioner och kompromissa med dina drömmar
 							</li>
 							<li className="list-disc">
 								Du är egenföretagare och känner att ditt företags ekonomi är hotat om du inte hittar ett sätt att få mer gjort
@@ -83,10 +84,6 @@ export default function Page() {
 							<li className="list-disc">
 								Du har dåligt samvete för att du inte kan ge familj och vänner
 								tilläckligt av din uppmärksamhet
-							</li>
-							<li className="list-disc">
-								Du känner att du aldrig hinner ikapp och att det hela tiden är
-								mer och mer att göra
 							</li>
 							<li className="list-disc">
 								Du upplever att hur mycket du än försöker skapa struktur och
@@ -128,32 +125,10 @@ export default function Page() {
 					Då har du kommit helt rätt!
 				</h2>
 				<p className="italic pb-8">
-					Faktum är att jag vet precis hur frustrerande det är, så därför
-					bestämde jag mig för att fixa det…
+					Faktum är att jag vet precis hur frustrerande det är...
 				</p>
-				<Button>Ja jag vill bli fri från stress</Button>
+				<Button>Ja jag vill bli fri från negativ stress</Button>
 			</Section>
-			<Section className="flex flex-col items-center">
-				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
-					Upplägg
-				</h2>
-				<p>
-					Programmet består av sex delar och pågår under 12 veckor. Du får
-					tillgång till alla videor och övningar idag och sen ses vi varje vecka
-					för gruppcoaching. Där får du chans och ställa frågor och få coaching
-					så att du direkt ska kunna tillämpa dina nya kunskaper. Du kan läsa
-					mer om varje del om du skrollar lite längre ner.
-				</p>
-				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
-					När sätter det igång?
-				</h2>
-				<p>
-					Kurstart är den tisdagen den 13 Juni. Alla tillfällen är på tisdagar
-					mellan kl 18:00 – 19:15.
-				</p>
-				<Button>Ja jag vill bli fri från stress</Button>
-			</Section>
-			<CourseContent />
 			<Section className="flex flex-col">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
 					Hanteringen av tiden och energin har aldrig varit viktigare
@@ -164,43 +139,47 @@ export default function Page() {
 					gör att det tiden och energin känns omöjligt att få till…
 				</p>
 				<p>
-					Jag har träffat så många som har försökt i åratal att undvika stress
-					för att må bättre.
+					Och det värsta av allt är att det bara blir värre desto längre tid man skjuter på det...
 				</p>
 				<p>
-					Men hur fasen ska vi någonsin kunna undvika stress när den finns
-					överallt?
-				</p>
-				<p>Det går inte…</p>
-				<p>
-					Dom flesta har provat på allt möjligt, avslappning, meditation,
-					skogspromenader, terapi, yoga och att hänga upp och ner från taket
-					samtidigt som man sjunga kumbaya.
+					Tänk på hur många år av ditt liv du redan mått dåligt av stressen och varit 
+					frustrerad över att du inte kommer framåt snabbare.
 				</p>
 				<p>
-					Men inget har fungerat på djupet och vem sjutton har egentligen tid
-					att lägga timmar varje dag på det?
+					Hur länge till ska du försöka undvika stress och försöka återhämta dig mer när det uppenbarligen inte fungerar?
 				</p>
 				<p>
-					Det har aldrig någonsin varit så svårt att hantera stressen, när varje
-					person måste göra mer och mer och världen blir allt mer komplex.
+					Inte en sekund till...
 				</p>
 				<p>
-					Att du använder din tid och energi på ett optimalt sätt kommer direkt
-					avgöra hur du mår, hur mycket pengar du tjänar och vad du kan
-					åstadkomma i ditt liv.
+					Eftersom du nu kommer lära dig hur förvandlar all negativ stress till positiv så du inte längre kommer behöver lika mycket återhämtning.
+				</p>
+				<p> 
+					Med detta som jag ska visa dig nu kommer du kunna öka antalet timmar du kan jobba OCH må bra med 20 timmar i veckan. 
 				</p>
 				<p>
-					Och det kräver experthjälp, strategisk planering och rätt metod för
-					att få till detta…
+					Det är det du kan förvänta dig när du följer min metod för att jobba med stress, energi 
+					och produktivitet.
 				</p>
-				<p>3 sätt detta är annorlunda än andra stressprogram:</p>
+				<p>
+					Igenom att jobba med ditt mindset, skapa bra strukturer och stärka dig som människa, kommer du må bättre och få mer resultat än du någonsin fått gjort.
+				</p>
+				<p>
+					Detta har särskilt designats för dig som är eller vill bli företagare då det kräver en helt annan metod jämfört med annan stresshantering.
+				</p>
+			</Section>
+			<About />
+			<Section className="flex flex-col bg-primary-dark items-center">
+				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
+					3 anledningar till varför denna metod förändrar allt 
+				</h2>
+				<div className="bg-background p-16 rounded-2xl max-w-4xl flex flex-col gap-4">
 				<p>
 					1. Stressen är bra för dig och du behöver inte undvika den om du lär
 					dig skifta ditt mindset
 				</p>
 				<p>
-					Forskningen har visat att när du ändrar ditt mindset och slutar tänka
+					Den senaste forskningen har visat att när du ändrar ditt mindset och slutar tänka
 					att stress är farligt, så kommer det inte längre vara farligt.
 				</p>
 				<p>
@@ -210,10 +189,6 @@ export default function Page() {
 				<p>
 					2. Förbättra din självkänsla på djupet igenom att förändra din
 					relation till dig själv
-				</p>
-				<p>
-					Om du känner att du redan har en bra självkänsla så har du inte känt
-					hur det är när den är riktigt, riktigt bra.
 				</p>
 				<p>
 					Istället för att du ska skriva 3 saker som är bra med dig själv, som
@@ -230,111 +205,54 @@ export default function Page() {
 					du misslyckas eller lyckas.
 				</p>
 				<p>
-					3. Inga fler produktivitetstips. Istället får du riktiga system som
-					kommer tvinga dig att bli strukturerad och effektiv.
+					3. Du kommer få riktiga system som naturligt kommer göra dig produktiv och effektiv.
 				</p>
 				<p>
-					Istället för att du ska få en massa råd som är svåra att implementera,
+					Istället för att du ska få en massa produktivitetstips som är svåra att implementera,
 					så kommer du få system, alltså faktiska datorsystem som kommer hjälpa
 					dig att göra det du behöver.
 				</p>
 				<p>
-					Du kommer få kunskaper varvat med mallar från en populär
-					produktivitetsapp (Notion) där du skapar rutiner och sätter mål som du
+					Du kommer få kunskaper varvat med mallar från den populära
+					produktivitetsappen Notion, där du skapar rutiner och sätter mål som du
 					sedan enkelt kan följa i din mobil, padda eller dator.
 				</p>
-				<p>Jag har själv varit utbränd.</p>
-				<p>Jag har själv haft problem med depression hela mitt vuxna liv.</p>
 				<p>
-					Jag har haft så mycket problem så jag var tvungen att hitta en
-					lösning.
+					Detta kommer göra att livet känns enkelt och roligt. 
+					Du kommer ständigt vara i flow och varje dag komma närmare dagen då du lever ditt drömliv
 				</p>
 				<p>
-					Efter att ha prövat allt möjligt på mig själv så har jag utvecklat en
-					metod som sedan testats och noggrant utvecklats på många stressade
-					företagare.
+					Och bäst av allt! 
 				</p>
 				<p>
-					Denna metod har jag sammanställt i en enkel, steg för steg process,
-					för att du också ska få känna hur det är att leva i Stressfrihet.
+					Det finns gott om personer som upplevt dessa resultat i deras egna liv!
 				</p>
-			</Section>
-			<Section className="flex flex-col bg-primary-dark items-center">
-				<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
-					Du kommer att öka din arbetsförmåga med minst 10 timmar i veckan…
-				</h2>
-				<div className="bg-background p-16 rounded-2xl max-w-4xl flex flex-col gap-4">
-					<p>
-						När du följer den nya metoden för att jobba med stress så är det det
-						du kan förvänta dig.
-					</p>
-					<p>
-						Materialet i detta program har tidigare endast varit tillgängligt i
-						mina mer exklusiva coachingprogram som kostat minst 20.000 kr.
-					</p>
-					<p>Men när du går med nu får du det för endast 9970 kr.</p>
-					<p>
-						Detta är lösningen för dig som har testat allt för att bli fri från
-						stressen men där inget funkat…
-					</p>
-					<p>
-						Det är eftersom jag inte lär ut att du ska undvika stressen utan
-						istället skifta ditt mindset så att du inte längre har ont av den
-						stress som oundvikligen kommer finnas i ditt liv.
-					</p>
-					<p>
-						Detta är inte ännu en stresskurs som handlar om avslappning och att
-						sänka kraven.
-					</p>
-					<p>
-						Istället behåller vi dina ambitioner och ändrar din relation till
-						stress så du inte behöver lika mycket återhämtning som tidigare.
-					</p>
-					<p>
-						Det totala värdet för detta är 57.000 kr men om du är snabb och snor
-						åt dig en av de 5 första platserna får du allt detta för endast 6970
-						kr.
-					</p>
-					<p>Dock finns det en hake…</p>
-					<p>
-						Jag jobbar endast med personer som vill ha ett företag där det
-						huvudsakliga mål är att faktiskt göra skillnad för andra.
-					</p>
-					<p>
-						Om du bara vill driva ditt företag för din egen skull eller vill
-						försöka bli rik utan att ge något tillbaka, så är detta inte för
-						dig.
-					</p>
-					<p>Så länge du kan lova mig det så har vi en deal!</p>
-					<p>
-						Efter dessa 3 månader kommer du inte längre vara rädd för stressen.
-					</p>
-					<p>
-						Du kommer ha skapat en struktur som hjälper dig hålla koll på allt
-						och som gör dig superproduktiv.
-					</p>
-					<p>
-						Du kommer känna att det är enkelt att stå upp för dig själv och du
-						kommer må bättre än du någonsin gjort förut.
-					</p>
-					<p>
-						Och det är särskilt designat för dig som är eller vill bli
-						företagare…
-					</p>
-					<p>Och bäst av allt!</p>
-					<p>
-						Det finns gott om personer som kan intyga om att detta program har
-						gjort oerhört stor skillnad i deras liv.
-					</p>
 				</div>
 			</Section>
 			<Testimonials />
-			<About />
-			<Section className="flex flex-col">
+			<CourseContent />
+			<Section className="flex flex-col items-center">
 				<h2 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
-					Bli fri från stress redan idag!
+					Bli fri från stress idag!
 				</h2>
-				<h3 className="font-display text-primary text-3xl md:text-5xl uppercase mb-16 text-center">
+				<h3>
+					Upplägg
+				</h3>
+				<p>
+					Programmet består av sex delar och pågår under 12 veckor. Du får
+					tillgång till alla videor och övningar idag och sen ses vi varje vecka
+					för gruppcoaching. Där får du chans och ställa frågor och få coaching
+					så att du direkt ska kunna tillämpa dina nya kunskaper. Du kan läsa
+					mer om varje del om du skrollar lite längre ner.
+				</p>
+				<h3>
+					När sätter det igång?
+				</h3>
+				<p>
+					Kurstart är den tisdagen den 13 Juni. Alla tillfällen är på tisdagar
+					mellan kl 18:00 – 19:15.
+				</p>
+				<h3>
 					Vad du får:
 				</h3>
 				<ul>
@@ -363,7 +281,7 @@ export default function Page() {
 				<h3>Totalt värde: 57 000 kr</h3>
 
 				<h3>Du betalat endast: 9970 kr</h3>
-				<Button>Ja jag vill bli fri från stress</Button>
+				<Button onClick={"https://automatehero.io/api/path/UkJDTG85TFdRd1RW"}>Jag vill ha tillgång till kursen nu!</Button>
 
 				<h3>Sista dag för anmälan är den 4 Juni!</h3>
 				<Image
@@ -374,6 +292,27 @@ export default function Page() {
 				/>
 				<RemainingSpots />
 			</Section>
+			<Section className="flex flex-col bg-primary-dark items-center">
+					<h2 className="font-display text-3xl md:text-5xl uppercase mb-16 text-center text-primary-light">
+						Fel mindset kan göra dig allvarligt sjuk! 
+					</h2>
+					<p>
+						I en studie frågade man 30.000 amerikaner: 
+					</p>
+					<ul>
+						<li>Hur mycket stress har du upplevt det senaste året?</li>
+						<li>Tror du att stress är skadligt för din hälsa?</li>
+					</ul>
+					<p>8 år senare tittade man på vilka som fortfarande levde.</p>
+					<p>Det visade sig att de som hade upplevt mycket stress hade ökad risk att dö med hela 43%!</p>
+					<p>Men endast om man också trodde att stress var skadligt...</p>
+					<p>Det absolut mest häpnadsväckande var att de som sa att de hade upplevt mycket stress och sa att stress inte påverkade deras hälsa hade lägst risk att dö av alla i hela studien!</p>
+					<p>Mycket positiv stress är alltså det bästa för din hälsa medan mycket negativ stress är direkt livsfarligt!</p>
+					<p>Jag menar inte att skrämma dig...</p>
+					<p>Jag vill bara att du tar detta på allvar och gör allt du kan för att skydda din hälsa och uppnå det du vill i ditt liv.</p>
+					<p>Så tryck på knappen nedan för att gå med i programmet och få tillgång till kursmaterialet idag!</p>
+					<Button>Jag vill ha tillgång till kursen nu!</Button>
+				</Section>
 			<FAQSection />
 			<Footer />
 		</>
