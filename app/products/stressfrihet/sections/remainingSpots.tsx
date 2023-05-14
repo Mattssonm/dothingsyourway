@@ -11,8 +11,6 @@ interface RemainingSpotsData {
 	taken: number;
 }
 
-const test = 8;
-
 const RemainingSpots = () => {
 	const [data, setData] = useState<RemainingSpotsData>();
 
@@ -56,9 +54,9 @@ const RemainingSpots = () => {
 				<>
 					<p className="italic">
 						Det finns just nu endast {
-							test>10 ? (`${test-10} platser kvar till detta rabatterade pris`) : 
-								test>5 ? (`${test-5} platser kvar till detta rabatterade pris`) :
-									(`${test} platser kvar`)
+							data.remaining>10 ? (`${data.remaining-10} platser kvar till detta rabatterade pris`) : 
+								data.remaining>5 ? (`${data.remaining-5} platser kvar till detta rabatterade pris`) :
+									(`${data.remaining} platser kvar`)
 						}
 						
 					</p>
