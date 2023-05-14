@@ -76,7 +76,11 @@ export default function Page() {
 				<h3>Totalt värde: 57 000 kr</h3>
 
 				<h3>Du betalat endast: 9970 kr</h3>
-				<Button onClick={"https://automatehero.io/api/path/UkJDTG85TFdRd1RW"}>
+				<Button
+					type="link"
+					href="https://automatehero.io/api/path/UkJDTG85TFdRd1RW"
+					target="_blank"
+				>
 					Jag vill ha tillgång till kursen nu!
 				</Button>
 
