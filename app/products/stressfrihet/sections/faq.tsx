@@ -34,14 +34,18 @@ const FAQSection = () => {
 					</Accordion.Panel>
 					<Accordion.Panel>
 						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-							Hur mycket tid kommer det att ta?
+							Hur ska jag hinna med detta?
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
+								Jag förstår att du har mycket att göra redan som det är så därför 
+								är det första som jag lagt tidmodulen allra först. I den modulen 
+								kommer du få konkreta strategier för att få loss minst 3 timmar 
+								extra i veckan. 
 								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan.
-								Tanken är att du ska lägga cirka 1 timme i veckan på videorna
-								och övningar. Men om du har svårt att hinna med så kan du också
-								göra klart modulerna senare.
+								Tanken är att du ska lägga ungefär 1 timme i veckan på videorna
+								och övningar. Men om du har svårt att hinna med så har du tillgång 
+								till modulerna på livstid så du kan göra dom i din egen takt. 
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -120,7 +124,7 @@ const FAQSection = () => {
 				</Accordion>
 			</div>
 			<Button type="link" href="#purchase">
-				Jag vill ha tillgång till kursen nu!
+				Ja, jag vill bli fri från negativ stress!
 			</Button>
 		</Section>
 	);

@@ -59,7 +59,7 @@ const RecognizeSection = () => {
 					Faktum är att jag vet precis hur frustrerande det är...
 				</p>
 				<Button type="link" href="#purchase">
-					Ja jag vill bli fri från negativ stress
+					Jag vill ha tillgång till kursen nu!
 				</Button>
 			</Section>
 		</>

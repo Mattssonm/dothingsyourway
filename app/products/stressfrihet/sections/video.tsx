@@ -7,7 +7,7 @@ const VideoSection = () => {
 			<div className="aspect-w-16 aspect-h-9">
 				<iframe
 					allow="autoplay; fullscreen; picture-in-picture"
-					src="https://player.vimeo.com/video/819764615?h=658f9043e9"
+					src="https://player.vimeo.com/video/826857123?h=d7aad5afd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
 					allowFullScreen
 				></iframe>
 			</div>

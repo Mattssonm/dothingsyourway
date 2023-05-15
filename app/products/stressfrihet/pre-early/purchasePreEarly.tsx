@@ -22,14 +22,6 @@ const PurchaseSection = () => {
 				<p className="text-xs uppercase text-gray-500 tracking-wide">
 					Stressfrihet - 12-veckorsprogrammet
 				</p>
-				<Image
-					className="rounded-xl"
-					width="400"
-					height="150"
-					src="https://automatehero.io/api/path/UkJ1TW85TFdRd1RX/gif"
-					alt="countdown"
-				/>
-				<h3>Sista dag för anmälan är den 4 Juni!</h3>
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Upplägg
 				</h3>
@@ -79,9 +71,22 @@ const PurchaseSection = () => {
 					</li>
 				</ul>
 				<h3 className="font-bold">Totalt värde: 54 000 kr</h3>
+				<h3 className="font-bold text-xl md:text-2xl ">Priset för kursen: 9970 kr</h3>
+				<h3 className="font-bold mt-10 text-xl md:text-2xl "><span className="text-red-600">JUST NU!</span></h3>
+				<p>De 5 första som anmäler sig innan den 21 maj får Pre-Early Bird <span className="text-red-600 font-bold">rabatt på 3000 kr.</span></p>
 
-				<h3 className="font-bold mt-10 text-xl md:text-2xl "> Du betalar endast: <span className="text-red-600">6970 kr</span></h3>
-				<Button className="mb-10"
+				<Image
+					className="rounded-xl"
+					width="400"
+					height="150"
+					src="https://automatehero.io/api/path/UkJITm85TFdRd1RX/gif"
+					alt="countdown"
+				/>
+				<h3>När timern gått ner kommer priset höjas</h3>
+
+
+				<h3 className="font-bold mt-10 text-xl md:text-2xl "> Pre-Early Bird pris: <span className="text-red-600">6970 kr</span></h3>
+				<Button
 					variant="secondary"
 					type="link"
 					href="https://automatehero.io/api/path/UkJDTG85TFdRd1RW"
@@ -89,7 +94,6 @@ const PurchaseSection = () => {
 				>
 					Reservera min plats nu
 				</Button>
-
 				<RemainingSpots />
 			</div>
 		</Section>

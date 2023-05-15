@@ -1,7 +1,7 @@
 import Section from "@/components/Section";
 import Button from "@/components/Button";
 import Image from "next/image";
-import RemainingSpots from "./remainingSpots";
+import RemainingSpots from "../sections/remainingSpots";
 
 const HeroSection = () => {
 	return (
@@ -24,7 +24,7 @@ const HeroSection = () => {
 				<p className="font-thin italic w-96">
 					En 12-veckors kurs där du lär dig använda positiv stress för att nå dina mål.
 				</p>
-				<h3 className="font-bold mt-100 text-xl md:text-2xl "><span className="text-red-600">JUST NU!</span></h3>
+				<h3 className="font-bold text-xl md:text-2xl text-red-600">JUST NU!</h3>
 				<p>De 5 första som anmäler sig innan den 21 maj får <span className="text-red-600">Pre-Early Bird rabatt på 3000 kr.</span></p>
 				<RemainingSpots />
 				<Button type="link" href="#purchase">

@@ -4,7 +4,7 @@ import FAQSection from "../sections/faq";
 import About from "@/components/About";
 import ModulesSection from "../sections/modules";
 import TestimonialsSection from "../sections/testimonials";
-import HeroSection from "../sections/hero";
+import HeroSection from "./heroPreEarly";
 import VideoSection from "../sections/video";
 import RecognizeSection from "../sections/recognize";
 import TimeAndEnergySection from "../sections/timeAndEnergy";

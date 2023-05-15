@@ -71,7 +71,7 @@ const MethodSection = () => {
 				</p>
 			</div>
 			<Button type="link" href="#purchase">
-				Ja jag vill bli fri från negativ stress
+				Reservera min plats nu!
 			</Button>
 		</Section>
 	);
