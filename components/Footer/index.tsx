@@ -61,7 +61,7 @@ const Footer = () => {
 				<section className="flex flex-row justify-between text-xs md:text-sm text-primary-light">
 					<div className="flex flex-col space-y-2">
 						<a
-							href="/integritetspolicy"
+							href="https://www.dothingsyourway.com/integritetspolicy"
 							className="hover:text-text-light transition-colors"
 						>
 							Integritetspolicy
