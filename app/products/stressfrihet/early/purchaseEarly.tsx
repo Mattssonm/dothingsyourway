@@ -73,7 +73,7 @@ const PurchaseSection = () => {
 				<h3 className="font-bold">Totalt värde: 54 000 kr</h3>
 				<h3 className="font-bold text-xl md:text-2xl ">Priset för kursen: 9970 kr</h3>
 				<h3 className="font-bold mt-10 text-xl md:text-2xl "><span className="text-red-600">JUST NU!</span></h3>
-				<p>De 5 första som anmäler sig innan den 28 maj får Early Bird <span className="text-red-600 font-bold">rabatt på 2000 kr.</span></p>
+				<p>De 5 första som anmäler sig innan den 28 maj kl 22:00 får Early Bird <span className="text-red-600 font-bold">rabatt på 2000 kr.</span></p>
 
 				<Image
 					className="rounded-xl"

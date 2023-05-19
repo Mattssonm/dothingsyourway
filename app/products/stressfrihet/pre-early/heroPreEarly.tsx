@@ -25,7 +25,7 @@ const HeroSection = () => {
 					En 12-veckors kurs där du lär dig använda positiv stress för att nå dina mål.
 				</p>
 				<h3 className="font-bold text-xl md:text-2xl text-red-600">JUST NU!</h3>
-				<p>De 5 första som anmäler sig innan den 21 maj får <span className="text-red-600">Pre-Early Bird rabatt på 3000 kr.</span></p>
+				<p>De 5 första som anmäler sig innan den 21 maj kl 23:59 får <span className="text-red-600">Pre-Early Bird rabatt på 3000 kr.</span></p>
 				<RemainingSpots />
 				<Button type="link" href="#purchase">
 					Reservera min plats nu!
