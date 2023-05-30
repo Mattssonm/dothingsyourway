@@ -35,8 +35,8 @@ const PurchaseSection = () => {
 					När sätter det igång?
 				</h3>
 				<p>
-					Kurstart är den <span className="font-bold">tisdagen den 13 Juni</span>. Alla tillfällen är på tisdagar
-					mellan kl 18:00 – 19:15. Vecka 29 och 30 är det semesteruppehåll. Därför blir det sista tillfället den 12 September.
+					Kurstart är den <span className="font-bold">tisdagen den 20 Juni</span> och innehåller 12 coachingtillfällen. Alla tillfällen är på tisdagar
+					mellan kl 18:00 – 19:15. Vecka 29 och 30 är det semesteruppehåll. Därför blir det sista tillfället den 19 September.
 				</p>
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Vad du får:

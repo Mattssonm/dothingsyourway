@@ -19,7 +19,7 @@ const HeroSection = () => {
 					Stressfrihet
 				</h2>
 				<h3 className="font-display text-xl md:text-2xl">
-					Få mer gjort och må fantastiskt bra utan att stressa mindre
+					Få mer gjort, må fantastiskt bra och bli mer effektiv
 				</h3>
 				<p className="font-thin italic w-96">
 					En 12-veckors kurs där du lär dig använda positiv stress för att nå dina mål.
