@@ -22,13 +22,13 @@ const HeroSection = () => {
 					Få mer gjort, må fantastiskt bra och bli mer effektiv
 				</h3>
 				<p className="font-thin italic w-96">
-					En 12-veckors kurs där du lär dig använda positiv stress för att nå dina mål.
+					En onlinekurs där du lär dig använda positiv stress för att nå dina mål.
 				</p>
-				<h3 className="font-bold mt-100 text-xl md:text-2xl "><span className="text-red-600">JUST NU!</span></h3>
+				{/* <h3 className="font-bold mt-100 text-xl md:text-2xl "><span className="text-red-600">JUST NU!</span></h3>
 				<p>De 5 första som anmäler sig innan den 21 maj får <span className="text-red-600">Pre-Early Bird rabatt på 3000 kr.</span></p>
-				<RemainingSpots />
+				<RemainingSpots /> */}
 				<Button type="link" href="#purchase">
-					Reservera min plats nu!
+					Jag vill ha tillgång till kursen nu!
 				</Button>
 			</div>
 		</Section>

@@ -19,7 +19,7 @@ const PurchaseSection = () => {
 				alt="Illustration of a woman and a man sitting in chairs discussing"
 			/>
 			<div className="bg-background p-16 rounded-2xl flex flex-col gap-4 max-w-screen-md items-center text-left">
-				<p className="text-xs uppercase text-gray-500 tracking-wide">
+				{/* <p className="text-xs uppercase text-gray-500 tracking-wide">
 					Stressfrihet - 12-veckorsprogrammet
 				</p>
 				<Image
@@ -28,13 +28,13 @@ const PurchaseSection = () => {
 					height="150"
 					src="https://automatehero.io/api/path/UkJ1TW85TFdRd1RX/gif"
 					alt="countdown"
-				/>
-				<h3>Sista dag för anmälan är den 18 Juni!</h3>
-				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
+				/> */}
+				{/* <h3>Sista dag för anmälan är den 18 Juni!</h3> */}
+				{/* <h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Upplägg
 				</h3>
 				<p>
-					Programmet består av sex delar och pågår under 12 veckor. Du får
+					Kursen innehåller sex moduler som du kan arbeta med i egen takt. Du får
 					tillgång till alla videor och övningar idag och sen ses vi varje vecka
 					för gruppcoaching. Där får du chans och ställa frågor och få coaching
 					så att du direkt ska kunna tillämpa dina nya kunskaper.
@@ -45,52 +45,46 @@ const PurchaseSection = () => {
 				<p>
 					Kurstart är den <span className="font-bold">tisdagen den 20 Juni</span> och innehåller 12 coachingtillfällen. Alla tillfällen är på tisdagar
 					mellan kl 18:00 – 19:15. Vecka 29 och 30 är det semesteruppehåll. Därmed blir det sista tillfället den 19 September.
-				</p>
+				</p> */}
 				<h3 className="font-display text-xl md:text-2xl w-full text-secondary-darkest">
 					Vad du får:
 				</h3>
 				<ul className="list-disc ml-8 flex flex-col gap-4">
 					<li>
 						Sex moduler med tillhörande arbetsmaterial (pdf:er, övningar m.m.) 
-						<span className="italic font-bold">(värde 16 000 kr)</span>
+						<p><span className="italic font-bold">(värde 9 000 kr)</span></p>
 					</li>
 					<li>
-						12 gruppcoachningstillfällen 
-						<span className="italic font-bold">(värde 15 000 kr)</span>
+						<span className="font-bold">Bonus 1</span> - 
+						En timmes coachingsamtal med mig, Markus. Detta bokas in direkt efter att du köpt 
+						kursen för att ge dig den absolut bästa starten på ditt nya liv i stressfrihet.
+						<p><span className="italic font-bold">(värde 1 000 kr)</span></p>
 					</li>
 					<li>
-						Tre månaders tillgång till sluten Facebookgrupp där där du kan få
-						svar på dina frågor och där vi gemensamt pushar varandra{" "}
-						<span className="italic font-bold">(värde 6000 kr)</span>
-					</li>
-					<li>
-						<span className="font-bold">BONUS 1!</span> - 
-						En kopia av mitt moderna och avancerade affärssystem som jag själv
-						använder för mitt företagande, min personliga utveckling och
-						produktivitet. Detta system får du behålla för alltid och jag kommer
-						lära dig hur du anpassar det efter dina behov 
-						<span className="italic font-bold">(värde 15 000 kr)</span>
-					</li>
-					<li>
-						<span className="font-bold">BONUS 2!!</span> – Dessutom kommer du få videoserien {`"Hållbara Dagar"`}, som
+						<span className="font-bold">Bonus 2</span> – Dessutom kommer du få videoserien {`"Hållbara Dagar"`}, som
 						består av tre videor på sammanlagt en timme som lär dig allt om hur
 						du skapar hållbarhet i din energi och ekonomi 
-						<span className="italic font-bold">(värde 2000 kr)</span>
+						<p><span className="italic font-bold">(värde 2 000 kr)</span></p>
 					</li>
 				</ul>
-				<h3 className="font-bold">Totalt värde: 54 000 kr</h3>
-
-				<h3 className="font-bold mt-10 text-xl md:text-2xl "> Du betalar endast: <span className="text-red-600">9970 kr</span></h3>
-				<Button className="mb-10"
+				<h3 className="">Totalt värde: 12 000 kr</h3>
+				{/* <h3 className="font-bold mt-10 text-xl md:text-2xl">Pris: 2 970 kr</h3> */}
+				<h3 className="font-display text-xl md:text-2xl text-secondary-darkest">
+					Pris: 2 970 kr
+				</h3>
+				<h2 className="">Just nu får du <span className="font-bold text-red-600">50% Rabatt</span> under begränsad tid</h2>
+				{/* <h3 className="font-bold mt-10 text-xl md:text-2xl "> Du betalar alltså endast: <span className="text-red-600">1 485 kr</span></h3> */}
+				<h3 className="mb-5 font-display text-xl md:text-2xl text-secondary-darkest">
+					Du betalar alltså endast: <span className="text-red-600">1485 kr</span>
+				</h3>
+				<Button
 					variant="secondary"
 					type="link"
-					href="https://automatehero.io/api/path/UkJDTG85TFdRd1RW"
+					href="https://dothingsyourway.thrivecart.com/stressfrihet/"
 					target="_blank"
 				>
-					Reservera min plats nu
+					Ta del av rabatten nu
 				</Button>
-
-				<RemainingSpots />
 			</div>
 		</Section>
 	);

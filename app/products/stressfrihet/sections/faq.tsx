@@ -25,10 +25,10 @@ const FAQSection = () => {
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
 								Du kommer direkt idag få tillgång till fyra moduler med med 38
-								korta videor, övningar och PDFer. Sen kommer du hänga med live i
-								12 gruppcoachingstillfällen där alla deltagare coachas och vi lär av varandra. Materialet
-								från de två sista modulerna kommer du få senare då de uppdateras
-								och optimeras utifrån feedback från tidigare kursdeltagare.
+								korta videor, övningar och PDFer. När du betalat får du en länk där du 
+								kan skapa ditt konto i kursportalen. Modul 5 och 6 håller på att 
+								uppdateras och göras ännu bättre. Du kommer få tillgång till modul 5 
+								den 22 oktober och modul 6 den 12 november.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -39,13 +39,12 @@ const FAQSection = () => {
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
 								Jag förstår att du har mycket att göra redan som det är så därför 
-								är det första som jag lagt tidmodulen allra först. I den modulen 
+								har jag lagt tidmodulen allra först. I den modulen 
 								kommer du få konkreta strategier för att få loss minst 3 timmar 
 								extra i veckan. 
-								Gruppcoachingtillfällena är på 1 timme och en kvart i veckan.
-								Tanken är att du ska lägga ungefär 1 timme i veckan på videorna
-								och övningar. Men om du har svårt att hinna med så har du tillgång 
-								till modulerna på livstid så du kan göra dom i din egen takt. 
+								Enligt planeringen så är tanken att du ska lägga ungefär 1 timme i 
+								veckan på videorna och övningar över 12 veckor. Men om du har svårt att 
+								hinna med det så gör du det i den takt som passar dig. 
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -57,7 +56,7 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Detta funkar för alla som har problem med stress oavsett ålder
 								och yrke. Även antalet barn, ev. sjukskrivning och hur många
-								marsvin du har kommer inte påverka ditt resultat. 🐹
+								marsvin du än har kommer inte påverka ditt resultat. 🐹
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -67,8 +66,7 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Du har tillgång till materialet på livstid och kan gå igenom
-								kursen i din egen takt.
+								Du har tillgång till materialet på livstid.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -80,7 +78,8 @@ const FAQSection = () => {
 							<p className="max-w-screen-sm text-text-dark">
 								Jag vill att du ska känna att ditt köp är fullständigt
 								riskfritt. Därför har du 30 dagars öppet köp. Bara skriv ett
-								mail och säg att du vill ha pengarna tillbaka så fixar vi det.
+								mail till markus@dothingsyourway.com och säg att du vill ha 
+								pengarna tillbaka så fixar vi det.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
@@ -90,8 +89,7 @@ const FAQSection = () => {
 						</Accordion.Title>
 						<Accordion.Content>
 							<p className="max-w-screen-sm text-text-dark">
-								Alla gruppcoachingstillfällen är live medan kursmaterialet är
-								färdiginspelat.
+								Nej allt kursmaterial är färdiginspelat sedan tidigare.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
