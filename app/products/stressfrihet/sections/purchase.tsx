@@ -83,7 +83,7 @@ const PurchaseSection = () => {
 					href="https://dothingsyourway.thrivecart.com/stressfrihet/"
 					target="_blank"
 				>
-					Ta del av rabatten nu
+					Ge mig tillgång till kursen nu!
 				</Button>
 			</div>
 		</Section>
