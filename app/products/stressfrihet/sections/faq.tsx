@@ -27,8 +27,8 @@ const FAQSection = () => {
 								Du kommer direkt idag få tillgång till fyra moduler med med 38
 								korta videor, övningar och PDFer. När du betalat får du en länk där du 
 								kan skapa ditt konto i kursportalen. Modul 5 och 6 håller på att 
-								uppdateras och göras ännu bättre. Du kommer få tillgång till modul 5 
-								den 22 oktober och modul 6 den 12 november.
+								uppdateras och göras ännu bättre. Dessa får du tillgång inom dom närmsta veckorna, 
+								lagom tills du är klar med de andra modulerna. 
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
