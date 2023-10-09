@@ -93,23 +93,7 @@ const ModulesSection = () => {
 					</Accordion.Panel>
 					<Accordion.Panel>
 						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-							5. Fokus - Hur du skapar maximal produktivitet igenom effektiv men
-							enkel struktur
-						</Accordion.Title>
-						<Accordion.Content>
-							<p className="max-w-screen-sm text-text-dark">
-								Del fem handlar om hur du tar vara på din tid och är så effektiv
-								och produktiv som möjligt. Du lär dig skapa fullständig klarhet
-								i vad som behöver göras och hur du bibehåller fokus på de
-								viktigaste uppgifterna du har att göra för dagen. Du kommer även
-								att lära dig hur du ska hantera både digitala och sociala
-								distraktioner som hindrar dig från att nå dina mål.
-							</p>
-						</Accordion.Content>
-					</Accordion.Panel>
-					<Accordion.Panel>
-						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
-							6. Riktning - Hur du får din vision, dina mål och dina drömmar att
+							5. Riktning - Hur du får din vision, dina mål och dina drömmar att
 							bli verklighet
 						</Accordion.Title>
 						<Accordion.Content>
@@ -121,6 +105,22 @@ const ModulesSection = () => {
 								att se till så att du varje dag inte bara gör många saker utan
 								rätt saker som är i linje med vad du verkligen vill uppnå i ditt
 								liv.
+							</p>
+						</Accordion.Content>
+					</Accordion.Panel>
+					<Accordion.Panel>
+						<Accordion.Title className="font-display text-lg md:text-xl font-normal text-primary hover:text-primary-dark transition-colors">
+							6. Fokus - Hur du skapar maximal produktivitet igenom effektiv men
+							enkel struktur
+						</Accordion.Title>
+						<Accordion.Content>
+							<p className="max-w-screen-sm text-text-dark">
+								Del fem handlar om hur du tar vara på din tid och är så effektiv
+								och produktiv som möjligt. Du lär dig skapa fullständig klarhet
+								i vad som behöver göras och hur du bibehåller fokus på de
+								viktigaste uppgifterna du har att göra för dagen. Du kommer även
+								att lära dig hur du ska hantera både digitala och sociala
+								distraktioner som hindrar dig från att nå dina mål.
 							</p>
 						</Accordion.Content>
 					</Accordion.Panel>
