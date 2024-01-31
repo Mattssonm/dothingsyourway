@@ -55,27 +55,21 @@ const PurchaseSection = () => {
 						<p><span className="italic font-bold">(värde 9 000 kr)</span></p>
 					</li>
 					<li>
-						<span className="font-bold">Bonus 1</span> - 
-						En timmes coachingsamtal med mig, Markus. Detta bokas in direkt efter att du köpt 
-						kursen för att ge dig den absolut bästa starten på ditt nya liv i stressfrihet.
-						<p><span className="italic font-bold">(värde 1 000 kr)</span></p>
-					</li>
-					<li>
-						<span className="font-bold">Bonus 2</span> – Dessutom kommer du få videoserien {`"Hållbara Dagar"`}, som
+						<span className="font-bold">Bonus!</span> – Dessutom kommer du få videoserien {`"Hållbara Dagar"`}, som
 						består av tre videor på sammanlagt en timme som lär dig allt om hur
 						du skapar hållbarhet i din energi och ekonomi 
 						<p><span className="italic font-bold">(värde 500 kr)</span></p>
 					</li>
 				</ul>
-				<h3 className="">Totalt värde: 10 500 kr</h3>
+				<h3 className="">Totalt värde: 9 500 kr</h3>
 				{/* <h3 className="font-bold mt-10 text-xl md:text-2xl">Pris: 2 970 kr</h3> */}
 				<h3 className="font-display text-xl md:text-2xl text-secondary-darkest">
-					Pris: 2 970 kr
+					Pris: 1 950 kr
 				</h3>
 				<h2 className="">Just nu får du <span className="font-bold text-red-600">50% Rabatt</span> under begränsad tid</h2>
 				{/* <h3 className="font-bold mt-10 text-xl md:text-2xl "> Du betalar alltså endast: <span className="text-red-600">1 485 kr</span></h3> */}
 				<h3 className="mb-5 font-display text-xl md:text-2xl text-secondary-darkest">
-					Du betalar alltså endast: <span className="text-red-600">1485 kr</span>
+					Du betalar alltså endast: <span className="text-red-600">975 kr</span>
 				</h3>
 				<Button
 					variant="secondary"
